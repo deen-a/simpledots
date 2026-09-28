@@ -1,4 +1,0 @@
-audio.play_bitrate_non_metered_migrated=true
-connect.dial_devices="[]"
-connect.mdns_devices="[{\"created_timestamp\":1787885385,\"device_id\":\"\",\"device_info\":{\"addresses\":[\"192.168.33.163\"],\"availability\":\"any\",\"device_type\":\"unknown\",\"get_info_json\":\"\",\"is_group\":false,\"should_send_wol\":false},\"discovery_name\":\"Spotify Desktop Launcher._spotify-connect._tcp.local\",\"display_name\":\"\",\"hostname\":\"DESKTOP-JIKMB8A.local\",\"last_seen\":1787885985,\"page_uri\":\"/zc\",\"port\":49670,\"public_ip\":\"114.122.101.95\",\"required_device_info\":{\"public_key\":\"\",\"remote_name\":\"\",\"version\":\"\"},\"ttl\":60,\"txt_records\":{\"CPath\":\"/zc\"}}]"
-app.player.volume=22905
