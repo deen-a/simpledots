@@ -1,2 +1,0 @@
-{"timestamp":42335491,"category":"bounce.tracking.protection","name":"purge_action","extra":{"site_host":"google.co.id","success":"true","glean_timestamp":"1790416556738","is_dry_run":"true","bounce_time":"1790401446"},"execution_counter":95}
-{"timestamp":42730705,"category":"glean","name":"restarted","extra":{"glean_timestamp":"1790416951952","glean.startup.date":"2026-09-26T17:02+07:00"},"execution_counter":96}

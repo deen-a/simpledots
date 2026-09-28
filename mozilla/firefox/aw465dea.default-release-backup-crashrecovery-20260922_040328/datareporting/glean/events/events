@@ -1,3 +1,0 @@
-{"timestamp":6982948,"category":"genai.chatbot","name":"shortcuts_displayed","extra":{"delay":"816907","glean_timestamp":"1789997445218","selection":"0","inputType":""}}
-{"timestamp":12692203,"category":"glean","name":"session_end","extra":{"reason":"timeout","session_id":"28c2db6d-dde7-4088-9335-847b5acb537f","session_seq":"110","glean_timestamp":"12692203"}}
-{"timestamp":12692257,"category":"glean","name":"session_start","extra":{"session_id":"4ad0bbbc-3d0a-4e88-ac22-82199f5ab7c7","glean_timestamp":"12692257","session_seq":"111","session_start_time":"2026-09-21T22:05:54.458+07:00","sampled_in":"true"}}

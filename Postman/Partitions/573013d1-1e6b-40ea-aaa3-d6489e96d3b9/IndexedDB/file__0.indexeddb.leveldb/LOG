@@ -1,6 +1,0 @@
-2026/07/24-09:30:44.624 7cdb Creating DB /home/shana/.config/Postman/Partitions/573013d1-1e6b-40ea-aaa3-d6489e96d3b9/IndexedDB/file__0.indexeddb.leveldb since it was missing.
-2026/07/24-09:30:44.631 7cdb Reusing MANIFEST /home/shana/.config/Postman/Partitions/573013d1-1e6b-40ea-aaa3-d6489e96d3b9/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2026/07/24-09:30:44.639 7cfa Level-0 table #5: started
-2026/07/24-09:30:44.640 7cfa Level-0 table #5: 486 bytes OK
-2026/07/24-09:30:44.643 7cfa Delete type=0 #3
-2026/07/24-09:30:44.644 7cdb Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

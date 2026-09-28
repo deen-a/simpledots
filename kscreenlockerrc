@@ -1,7 +1,0 @@
-[Daemon]
-Timeout=10
-
-[Greeter][Wallpaper][org.kde.image][General]
-DynamicMode=2
-Image=file:///home/shana/Pictures/wallpaper/javascript.png
-PreviewImage=file:///home/shana/Pictures/wallpaper/javascript.png
