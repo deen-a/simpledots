@@ -1,0 +1,54 @@
+2026/08/14-08:02:21.276 7439 Reusing MANIFEST /home/shana/.config/Postman/Partitions/573013d1-1e6b-40ea-aaa3-d6489e96d3b9/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/14-08:02:21.278 7439 Recovering log #28
+2026/08/14-08:02:21.394 7439 Reusing old log /home/shana/.config/Postman/Partitions/573013d1-1e6b-40ea-aaa3-d6489e96d3b9/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/000028.log 
+2026/08/14-08:02:21.395 7439 Delete type=2 #5
+2026/08/14-08:02:21.395 7439 Delete type=2 #30
+2026/08/14-08:02:27.522 741b Level-0 table #34: started
+2026/08/14-08:02:27.573 741b Level-0 table #34: 1044507 bytes OK
+2026/08/14-08:02:27.586 741b Delete type=0 #28
+2026/08/14-08:02:27.590 741b Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/14-08:02:27.596 741c Level-0 table #36: started
+2026/08/14-08:02:27.598 741c Level-0 table #36: 6541 bytes OK
+2026/08/14-08:02:27.601 741c Delete type=0 #33
+2026/08/14-08:02:27.601 743a Manual compaction at level-0 from '\x00\x11\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at '\x00\x11\x00\x00\x05' @ 24262 : 0
+2026/08/14-08:02:27.602 743a Compacting 1@0 + 1@1 files
+2026/08/14-08:02:27.619 743a Generated table #37@0: 5798 keys, 97706 bytes
+2026/08/14-08:02:27.619 743a Compacted 1@0 + 1@1 files => 97706 bytes
+2026/08/14-08:02:27.621 743a compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/14-08:02:27.621 743a Delete type=2 #36
+2026/08/14-08:02:27.623 741b Manual compaction at level-0 from '\x00\x11\x00\x00\x05' @ 24262 : 0 .. '\x00\x12\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/14-08:02:32.257 741c Compacting 1@1 + 1@2 files
+2026/08/14-08:02:32.281 741c Generated table #38@1: 955 keys, 58753 bytes
+2026/08/14-08:02:32.281 741c Compacted 1@1 + 1@2 files => 58753 bytes
+2026/08/14-08:02:32.287 741c compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/14-08:02:32.287 741c Delete type=2 #31
+2026/08/14-08:02:32.288 741c Delete type=2 #34
+2026/08/14-08:02:32.288 741c Delete type=2 #37
+2026/08/14-08:56:10.680 741b Level-0 table #40: started
+2026/08/14-08:56:10.777 741b Level-0 table #40: 568304 bytes OK
+2026/08/14-08:56:10.783 741b Delete type=0 #35
+2026/08/14-08:56:10.785 741b Manual compaction at level-0 from '\x00\x12\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x13\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/08/14-08:56:23.063 741b Compacting 1@1 + 1@2 files
+2026/08/14-08:56:23.075 741b Generated table #41@1: 904 keys, 31810 bytes
+2026/08/14-08:56:23.075 741b Compacted 1@1 + 1@2 files => 31810 bytes
+2026/08/14-08:56:23.077 741b compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/14-09:01:17.986 741c Level-0 table #43: started
+2026/08/14-09:01:18.034 741c Level-0 table #43: 990990 bytes OK
+2026/08/14-09:01:18.040 741c Delete type=2 #38
+2026/08/14-09:01:18.041 741c Delete type=0 #39
+2026/08/14-09:01:18.041 741c Delete type=2 #40
+2026/08/14-09:01:27.170 7439 Compacting 1@1 + 1@2 files
+2026/08/14-09:01:27.179 7439 Generated table #44@1: 957 keys, 37119 bytes
+2026/08/14-09:01:27.179 7439 Compacted 1@1 + 1@2 files => 37119 bytes
+2026/08/14-09:01:27.181 7439 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/14-09:01:27.182 7439 Delete type=2 #41
+2026/08/14-09:01:27.182 7439 Delete type=2 #43
+2026/08/14-10:38:34.504 741c Level-0 table #46: started
+2026/08/14-10:38:34.697 741c Level-0 table #46: 978172 bytes OK
+2026/08/14-10:38:34.714 741c Delete type=0 #42
+2026/08/14-10:38:45.349 741c Compacting 1@1 + 1@2 files
+2026/08/14-10:38:45.377 741c Generated table #47@1: 1050 keys, 65921 bytes
+2026/08/14-10:38:45.377 741c Compacted 1@1 + 1@2 files => 65921 bytes
+2026/08/14-10:38:45.380 741c compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/14-10:38:45.380 741c Delete type=2 #44
+2026/08/14-10:38:45.380 741c Delete type=2 #46

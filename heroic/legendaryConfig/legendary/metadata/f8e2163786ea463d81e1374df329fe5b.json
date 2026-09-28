@@ -1,0 +1,97 @@
+{
+  "app_name": "f8e2163786ea463d81e1374df329fe5b",
+  "app_title": "Prop Sumo",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "f8e2163786ea463d81e1374df329fe5b",
+      "asset_id": "f8e2163786ea463d81e1374df329fe5b",
+      "build_version": "1.1.0.2815",
+      "catalog_item_id": "da0b722e57d34b0dad7716a86418af9e",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "422ebb0dce7b434d9631733980e636e9"
+      },
+      "namespace": "a01818d165284996896acce560c669fa",
+      "sidecar_rev": 1
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "fghi4567HOVZyNB0oPMGFD6j9Vjh19cd",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2024-07-02T14:02:54.921Z",
+    "customAttributes": {
+      "CloudExcludeList": {
+        "type": "STRING",
+        "value": "steam_autocloud.vdf"
+      },
+      "CloudSaveFolder": {
+        "type": "STRING",
+        "value": "{AppData}/PropSumo/Saved/SaveGames/"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "PropSumo"
+      }
+    },
+    "description": "Prop Sumo",
+    "developer": "Barrel Roll Games GmbH & Co. KG",
+    "developerId": "o-ur7c9fhlj4tk5quljfy7znqz9qz2t3",
+    "endOfSupport": false,
+    "entitlementName": "da0b722e57d34b0dad7716a86418af9e",
+    "entitlementType": "EXECUTABLE",
+    "id": "da0b722e57d34b0dad7716a86418af9e",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "PropSumo Offer",
+        "height": 1440,
+        "md5": "1ef6bcd8b1b9eef7eac66dc8119d5a1d",
+        "size": 582943,
+        "type": "DieselGameBox",
+        "uploadedDate": "2026-03-18T14:08:53.797Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/a965174568cb492ca3ebbe7a95886261/propsumo-147wn.jpg",
+        "width": 2560
+      },
+      {
+        "alt": "Download PropSumo Offer",
+        "height": 1600,
+        "md5": "47ef9cf28faaf7735c53be973e93b093",
+        "size": 1355687,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2026-03-18T13:16:50.693Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/a965174568cb492ca3ebbe7a95886261/propsumo-1yyvz.png",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2026-05-12T09:25:58.874Z",
+    "mainGameItemList": [],
+    "namespace": "a01818d165284996896acce560c669fa",
+    "releaseInfo": [
+      {
+        "appId": "f8e2163786ea463d81e1374df329fe5b",
+        "id": "c3575f5ff02a4b1080f575aea235ce11",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Prop Sumo",
+    "unsearchable": false
+  },
+  "sidecar": {
+    "config": {
+      "deploymentId": "8360fddd2a3e454dac9b7b25a8e13b9f"
+    },
+    "rev": 1
+  }
+}

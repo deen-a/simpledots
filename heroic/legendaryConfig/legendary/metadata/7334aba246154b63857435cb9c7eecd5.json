@@ -1,0 +1,132 @@
+{
+  "app_name": "7334aba246154b63857435cb9c7eecd5",
+  "app_title": "Disco Elysium - The Final Cut",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "7334aba246154b63857435cb9c7eecd5",
+      "asset_id": "7334aba246154b63857435cb9c7eecd5",
+      "build_version": "WINkay16062026_memfix",
+      "catalog_item_id": "a10c5b9efef64535b9e290dc3755c189",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "update_type": "PATCH"
+      },
+      "namespace": "ff52981b1d9947978153c7a7f8bc6d90",
+      "sidecar_rev": 1
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "fghi45670Wo6EkKW4aSFN3yT1cDNr7A2",
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2024-04-02T22:00:01.446Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CloudSaveFolder": {
+        "type": "STRING",
+        "value": "{appdata}/../locallow/ZAUM Studio/Disco Elysium/SaveGames/"
+      },
+      "CloudSaveFolder_Mac": {
+        "type": "STRING",
+        "value": "{UserLibrary}/Application Support/ZAUM Studio/Disco Elysium/SaveGames/"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "DiscoElysium"
+      },
+      "MaxSizeMB": {
+        "type": "STRING",
+        "value": "400"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "PresenceId": {
+        "type": "STRING",
+        "value": "ff52981b1d9947978153c7a7f8bc6d90"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "[]"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "Disco Elysium - The Final Cut is a groundbreaking role playing game. You\u2019re a detective with a unique skill system at your disposal. Interrogate unforgettable characters, crack murders or take bribes. Become a hero or an absolute disaster of a human being.",
+    "developer": "ZA/UM",
+    "developerId": "o-pb2pz54zd2ps62dbhl588l39prldtz",
+    "endOfSupport": false,
+    "entitlementName": "a10c5b9efef64535b9e290dc3755c189",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "a10c5b9efef64535b9e290dc3755c189",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "Disco Elysium Offer",
+        "height": 1440,
+        "md5": "607f602a8a91b8b4f61bd92e1797b142",
+        "size": 1422970,
+        "type": "DieselGameBox",
+        "uploadedDate": "2024-05-09T12:23:00.391Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/9003e1ade0b14e8688b08030e7a335fd/disco-elysium-1dbyw.jpg",
+        "width": 2560
+      },
+      {
+        "alt": "Download Disco Elysium Offer",
+        "height": 1600,
+        "md5": "6607ad9e3fc5fbe7e0a609801e5916b2",
+        "size": 2117930,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2024-05-09T12:23:01.093Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/9003e1ade0b14e8688b08030e7a335fd/disco-elysium-9x1mw.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2024-05-16T10:04:37.720Z",
+    "mainGameItemList": [],
+    "namespace": "ff52981b1d9947978153c7a7f8bc6d90",
+    "releaseInfo": [
+      {
+        "appId": "7334aba246154b63857435cb9c7eecd5",
+        "id": "42b94803ef0242dfaf9c57f00263892a",
+        "platform": [
+          "Mac",
+          "Windows"
+        ]
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "Disco Elysium - The Final Cut",
+    "unsearchable": true
+  },
+  "sidecar": {
+    "config": {
+      "deploymentId": "55059ae5ba3f4479b6b714e0d9c59093"
+    },
+    "rev": 1
+  }
+}

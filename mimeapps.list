@@ -1,0 +1,32 @@
+[Added Associations]
+application/json=org.kde.kwrite.desktop;
+application/x-docbook+xml=org.kde.kwrite.desktop;
+application/x-yaml=org.kde.kwrite.desktop;
+text/markdown=org.kde.kwrite.desktop;
+text/plain=org.kde.kwrite.desktop;
+text/x-cmake=org.kde.kwrite.desktop;
+x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
+image/png=org.xfce.ristretto.desktop;
+image/jpeg=org.xfce.ristretto.desktop;
+image/svg+xml=org.xfce.ristretto.desktop;
+
+[Default Applications]
+application/json=org.kde.kwrite.desktop;
+application/x-docbook+xml=org.kde.kwrite.desktop;
+application/x-yaml=org.kde.kwrite.desktop;
+text/markdown=org.kde.kwrite.desktop;
+text/plain=org.kde.kwrite.desktop;
+text/x-cmake=org.kde.kwrite.desktop;
+x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
+x-scheme-handler/postman=Postman.desktop
+text/html=firefox.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/about=firefox.desktop
+x-scheme-handler/unknown=firefox.desktop
+x-scheme-handler/jetbrains=jetbrainsd.desktop
+x-scheme-handler/roblox-player=org.vinegarhq.Sober.desktop
+x-scheme-handler/roblox-player=org.vinegarhq.Sober.desktop
+x-scheme-handler/roblox-player=org.vinegarhq.Sober.desktop
+x-scheme-handler/anarlog=anarlog-handler.desktop
+x-scheme-handler/hyprnote=anarlog-handler.desktop

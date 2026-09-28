@@ -1,0 +1,96 @@
+{
+	"41869934302e4b8cafac2d3c0e7c293d": {
+		"game": {
+			"app_name": "41869934302e4b8cafac2d3c0e7c293d",
+			"title": "Genshin Impact",
+			"version": "121",
+			"platform_versions": {
+				"Windows": "121"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 39967,
+			"type": "binary",
+			"version": 21,
+			"feature_level": 21,
+			"compressed": true,
+			"encrypted": false,
+			"app_name": "41869934302e4b8cafac2d3c0e7c293d",
+			"launch_exe": "launcher_epic.exe",
+			"launch_command": "",
+			"build_version": "121",
+			"build_id": "X-dkDusSmE6FkBxSME7_8w",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 129,
+			"num_chunks": 428,
+			"disk_size": 460277044,
+			"download_size": 211633933,
+			"tag_disk_size": [],
+			"tag_download_size": [],
+			"is_preloaded": false,
+			"use_signed_urls": false
+		}
+	},
+	"__timestamp": {
+		"41869934302e4b8cafac2d3c0e7c293d": "Sun Jul 19 2026 18:53:46 GMT+0700 (Western Indonesia Time)",
+		"0006475a83f143ba807174654bc09d38": "Sat Aug 08 2026 10:07:05 GMT+0700 (Western Indonesia Time)"
+	},
+	"0006475a83f143ba807174654bc09d38": {
+		"game": {
+			"app_name": "0006475a83f143ba807174654bc09d38",
+			"title": "HOT WHEELS UNLEASHED™",
+			"version": "hotwheels-Distribution-CL_1457021",
+			"platform_versions": {
+				"Windows": "hotwheels-Distribution-CL_1457021"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 1795813,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"compressed": true,
+			"encrypted": false,
+			"app_name": "0006475a83f143ba807174654bc09d38",
+			"launch_exe": "hotwheels.exe",
+			"launch_command": "",
+			"build_version": "hotwheels-Distribution-CL_1457021",
+			"build_id": "go6h1juYhi5UepOtbbAVKENds5I",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 39,
+			"num_chunks": 27188,
+			"disk_size": 28852375647,
+			"download_size": 28230305109,
+			"tag_disk_size": [],
+			"tag_download_size": [],
+			"is_preloaded": false,
+			"use_signed_urls": false
+		}
+	}
+}

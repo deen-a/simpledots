@@ -1,0 +1,4 @@
+[Libinput][1267][12587][ELAN050B:00 04F3:312B Touchpad]
+DisableWhileTyping=false
+NaturalScroll=true
+ScrollFactor=1.5

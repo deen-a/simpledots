@@ -1,0 +1,6 @@
+[General]
+HotspotName=shenarch.z
+HotspotPassword=alHytamm
+ManageVirtualConnections=false
+SystemConnectionsByDefault=true
+UnlockModemOnDetection=true

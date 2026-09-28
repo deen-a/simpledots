@@ -1,0 +1,54 @@
+;; Jendela Utama Utilitas (Selalu Aktif)
+(defwindow topbar_utility
+  :monitor 0
+  :geometry (geometry :x "-20px"          ; Geser dari kanan sesuai margin Waybar
+                      :y "5px"            ; Sesuaikan dengan margin-top Waybar
+                      :width "300px"
+                      :height "35px"
+                      :anchor "top right")
+  :stacking "fg"
+  :exclusive false                        ; Biar gak musuhan rebutan space sama Waybar
+  :focusable false
+  (utility_layout))
+
+;; Layout Horizontal untuk menampung widget
+(defwidget utility_layout []
+  (box :class "utility-bar" 
+       :orientation "h" 
+       :space-evenly true 
+       :spacing 15
+    (cpu_widget)
+    (ram_widget)
+    (bat_widget)
+  ))
+
+;; --- WIDGET CPU (Dengan Radial Progress) ---
+(defwidget cpu_widget []
+  (box :orientation "h" :space-evenly false :spacing 5
+    (circular-progress :value {EWW_CPU.avg}
+                       :thickness 4
+                       ;; Trik threshold: kalau CPU > 80, pakai class 'critical', jika tidak 'normal'
+                       :class {EWW_CPU.avg > 80 ? "circle-cpu-critical" : "circle-cpu-normal"}
+      (label :text "" :class "circle-icon"))
+    (label :text "${round(EWW_CPU.avg, 0)}%")))
+
+;; --- WIDGET RAM (Dengan Radial Progress) ---
+(defwidget ram_widget []
+  (box :orientation "h" :space-evenly false :spacing 5
+    (circular-progress :value {EWW_RAM.used_mem_perc}
+                       :thickness 4
+                       :class {EWW_RAM.used_mem_perc > 85 ? "circle-ram-critical" : "circle-ram-normal"}
+      (label :text "󰘚" :class "circle-icon"))
+    (label :text "${round(EWW_RAM.used_mem_perc, 0)}%")))
+
+;; --- WIDGET BATTERY (Dengan Radial Progress) ---
+;; Catatan: Untuk Baterai & Brightness, kamu bisa tambah defpoll cat /sys/class/power_supply/BAT0/capacity
+(defpoll battery_percent :interval "5s" "cat /sys/class/power_supply/BAT0/capacity")
+
+(defwidget bat_widget []
+  (box :orientation "h" :space-evenly false :spacing 5
+    (circular-progress :value battery_percent
+                       :thickness 4
+                       :class {battery_percent < 20 ? "circle-bat-low" : "circle-bat-normal"}
+      (label :text "󱊣" :class "circle-icon"))
+    (label :text "${battery_percent}%")))

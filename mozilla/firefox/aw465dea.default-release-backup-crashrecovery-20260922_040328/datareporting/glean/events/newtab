@@ -1,0 +1,3 @@
+{"timestamp":4843651,"category":"newtab","name":"widgets_impression","extra":{"widget_name":"weather","glean_timestamp":"1789995305899","widget_size":"small","newtab_visit_id":"{5aee0027-70ba-415a-8bea-3d55bc973e5a}"},"execution_counter":105}
+{"timestamp":4843654,"category":"newtab","name":"widgets_impression","extra":{"widget_name":"crossword","widget_size":"large","newtab_visit_id":"{5aee0027-70ba-415a-8bea-3d55bc973e5a}","glean_timestamp":"1789995305901"},"execution_counter":105}
+{"timestamp":4843655,"category":"newtab","name":"widgets_impression","extra":{"newtab_visit_id":"{5aee0027-70ba-415a-8bea-3d55bc973e5a}","widget_name":"picture_of_the_day","widget_size":"large","glean_timestamp":"1789995305902"},"execution_counter":105}

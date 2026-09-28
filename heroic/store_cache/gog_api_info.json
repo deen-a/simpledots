@@ -1,0 +1,414 @@
+{
+	"epic_0006475a83f143ba807174654bc09d38": {
+		"id": "54786322481308607",
+		"game_id": "54176765692834652",
+		"platform_id": "epic",
+		"external_id": "0006475a83f143ba807174654bc09d38",
+		"dlcs_ids": [],
+		"dlcs": [],
+		"parent_id": null,
+		"supported_operating_systems": [
+			{
+				"slug": "windows",
+				"name": "Windows"
+			}
+		],
+		"available_languages": [
+			{
+				"code": "en-US"
+			}
+		],
+		"first_release_date": null,
+		"game": {
+			"id": "54176765692834652",
+			"parent_id": null,
+			"dlcs_ids": [
+				"54797349356593277",
+				"54797354119908798",
+				"54857772177864521",
+				"54857772367648942",
+				"54857772574810278",
+				"54857772778246325",
+				"54857773008815818",
+				"54938860948909273",
+				"54939054114586258",
+				"54939054774312687",
+				"54939055157997374",
+				"54939055790712757",
+				"54939056060065293",
+				"55090106242523157",
+				"55098390227453174",
+				"55099229191590402",
+				"55109861289618216",
+				"55109862259537275",
+				"55109862820429025",
+				"55109863685082797",
+				"55159761390645940",
+				"55162443869104703",
+				"55162826034717024",
+				"55171001553407091",
+				"55203309499825072",
+				"55203311658443307",
+				"55203311970064107",
+				"55203312346463428",
+				"55203312722390892",
+				"55203313046642616",
+				"55275479576028118",
+				"55312620804850160",
+				"55312621139242867",
+				"55312621675956874",
+				"55312622789345456",
+				"55312623139143170",
+				"55335554198839892",
+				"55335555591987009",
+				"55335556340822678",
+				"55335556687292749",
+				"55380081196813889",
+				"55422986030804966",
+				"55422986584862010",
+				"55422986881709406",
+				"55422987135492628",
+				"55422987454405013",
+				"55422987869667782",
+				"55438722078547521",
+				"55626527872437557",
+				"55703561170684638",
+				"56070158058228499",
+				"56798806275756780",
+				"56834336370740450",
+				"57203018753645965"
+			],
+			"mods_ids": [],
+			"first_release_date": "2021-09-30T00:00:00+0000",
+			"releases": [
+				{
+					"id": "54260890359549996",
+					"platform_id": "steam",
+					"external_id": "1271700",
+					"release_per_platform_id": "steam_1271700",
+					"availability": 0
+				},
+				{
+					"id": "54663496837596559",
+					"platform_id": "epic",
+					"external_id": "TangoDummy",
+					"release_per_platform_id": "epic_TangoDummy",
+					"availability": 0
+				},
+				{
+					"id": "54675711208661627",
+					"platform_id": "psn",
+					"external_id": "PPSA02325_00",
+					"release_per_platform_id": "psn_PPSA02325_00",
+					"availability": 0
+				},
+				{
+					"id": "54750192385860081",
+					"platform_id": "psn",
+					"external_id": "PPSA02324_00",
+					"release_per_platform_id": "psn_PPSA02324_00",
+					"availability": 0
+				},
+				{
+					"id": "54778571840076135",
+					"platform_id": "xboxone",
+					"external_id": "1802207786",
+					"release_per_platform_id": "xboxone_1802207786",
+					"availability": 0
+				},
+				{
+					"id": "54786322481308607",
+					"platform_id": "epic",
+					"external_id": "0006475a83f143ba807174654bc09d38",
+					"release_per_platform_id": "epic_0006475a83f143ba807174654bc09d38",
+					"availability": 0
+				},
+				{
+					"id": "54803828542029685",
+					"platform_id": "humble",
+					"external_id": "hotwheelsunleashed_storefront_steam_dIm2r",
+					"release_per_platform_id": "humble_hotwheelsunleashed_storefront_steam_dIm2r",
+					"availability": 0
+				},
+				{
+					"id": "54994280037444418",
+					"platform_id": "nswitch",
+					"external_id": "0100AA60136D2000",
+					"release_per_platform_id": "nswitch_0100AA60136D2000",
+					"availability": 0
+				},
+				{
+					"id": "55267232076803672",
+					"platform_id": "nswitch",
+					"external_id": "01003D001597A000",
+					"release_per_platform_id": "nswitch_01003D001597A000",
+					"availability": 0
+				},
+				{
+					"id": "55682240941254620",
+					"platform_id": "humble",
+					"external_id": "hotwheelsunleashed",
+					"release_per_platform_id": "humble_hotwheelsunleashed",
+					"availability": 0
+				},
+				{
+					"id": "55682290499257196",
+					"platform_id": "humble",
+					"external_id": "hotwheelsunleashed_choice_steam",
+					"release_per_platform_id": "humble_hotwheelsunleashed_choice_steam",
+					"availability": 0
+				},
+				{
+					"id": "59570125541291152",
+					"platform_id": "amazon",
+					"external_id": "amzn1.adg.product.7eb83716-bb77-4198-b026-eb3ebbd812db",
+					"release_per_platform_id": "amazon_amzn1.adg.product.7eb83716-bb77-4198-b026-eb3ebbd812db",
+					"availability": 0
+				},
+				{
+					"id": "54176765692834652",
+					"platform_id": "generic",
+					"external_id": "54176765692834652",
+					"release_per_platform_id": "generic_54176765692834652",
+					"availability": 1
+				}
+			],
+			"title": {
+				"*": "Hot Wheels Unleashed",
+				"en-US": "Hot Wheels Unleashed"
+			},
+			"sorting_title": {
+				"*": "Hot Wheels Unleashed",
+				"en-US": "Hot Wheels Unleashed"
+			},
+			"type": "game",
+			"developers_ids": [
+				"51142029235441100"
+			],
+			"developers": [
+				{
+					"id": "51142029235441100",
+					"name": "Milestone",
+					"slug": "milestone"
+				}
+			],
+			"publishers_ids": [
+				"51142029235441100"
+			],
+			"publishers": [
+				{
+					"id": "51142029235441100",
+					"name": "Milestone",
+					"slug": "milestone"
+				}
+			],
+			"genres_ids": [
+				"51141224840148805",
+				"51141224875811235"
+			],
+			"genres": [
+				{
+					"id": "51141224840148805",
+					"name": {
+						"*": "Arcade",
+						"en-US": "Arcade"
+					},
+					"slug": "arcade"
+				},
+				{
+					"id": "51141224875811235",
+					"name": {
+						"*": "Racing",
+						"en-US": "Racing"
+					},
+					"slug": "racing"
+				}
+			],
+			"themes_ids": [
+				"51071842231533391",
+				"51141226475791283"
+			],
+			"themes": [
+				{
+					"id": "51071842231533391",
+					"name": {
+						"*": "Action",
+						"en-US": "Action"
+					},
+					"slug": "action"
+				},
+				{
+					"id": "51141226475791283",
+					"name": {
+						"*": "Kids",
+						"en-US": "Kids"
+					},
+					"slug": "kids"
+				}
+			],
+			"screenshots": [
+				{
+					"url_format": "https://images.gog.com/6766a9235b5aa41ef060187795b03f7e1e85083019f008fdc1d7dda430ac9717{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/8f7537e37194c7d9aafccba7a1168ddaba26cdf0e898789226881e0f3e95ba0f{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/44e751d22878f32294e9a365ddcf3e0f45c7c9aa01652b2db8fca4809a2cfe17{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/e622dac329d471fef6aa693f6c44464f3497c84dee88a029c3dd4867ba7ac494{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/f83608940647119d537ea01b3f97565cfafb7da8bb8334492cc10464fdcde65c{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/ad031a801637fcdba249f30a2de694d0bdad341eddbc6789111a9793886281e5{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/051cfac9607f435527359cb069cb0935820d481ede8208a0be196e0ffc78416c{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/5520630ac720974415ef4eee549f7901bef2c0164d56cbfcdc9d00b55a07444d{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/02dbd21b9de4ba3dcb0d7125e17427e5d79e61748708de93ba7bea3ddf9b70db{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/204e78afeb25ae4a5de23fbd8f2b85a8fbf9734e06606fc1e2331b7997b325e0{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/044455d88b8d2f7a3b3dff0806b0fc45381cd22c50de68044e03f7a99227e17d{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/1a903c3337c3b6d5d1e01ac34cb0118429310cc4189ba9dd505fe7bd1b345491{formatter}.{ext}?namespace=gamesdb"
+				}
+			],
+			"videos": [
+				{
+					"provider": "youtube",
+					"video_id": "iSM7xUCum_c",
+					"thumbnail_id": "iSM7xUCum_c",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "59HZ3b5H-Pc",
+					"thumbnail_id": "59HZ3b5H-Pc",
+					"name": "Gameplay Video"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "Ksz0UAin4m0",
+					"thumbnail_id": "Ksz0UAin4m0",
+					"name": "Gameplay Video"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "k47IeQX2LEU",
+					"thumbnail_id": "k47IeQX2LEU",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "Ym7SRxydnmM",
+					"thumbnail_id": "Ym7SRxydnmM",
+					"name": "Gameplay Video"
+				}
+			],
+			"artworks": [
+				{
+					"url_format": "https://images.gog.com/ac6e0fd44705acf9b6dd412ed127b50a2389049a3cfcef8d366ab9cf528747b8{formatter}.{ext}?namespace=gamesdb"
+				}
+			],
+			"summary": {
+				"*": "Collect the best vehicles in the Hot Wheels universe, build spectacular tracks and dive into breathtaking races. The most iconic and sought after Hot Wheels vehicles are waiting for you. Get ready to make them race at full speed!",
+				"en-US": "Collect the best vehicles in the Hot Wheels universe, build spectacular tracks and dive into breathtaking races. The most iconic and sought after Hot Wheels vehicles are waiting for you. Get ready to make them race at full speed!"
+			},
+			"visible_in_library": true,
+			"aggregated_rating": 68.375,
+			"game_modes": [
+				{
+					"id": "53051895165351137",
+					"name": "Single player",
+					"slug": "single-player"
+				},
+				{
+					"id": "53051908711988230",
+					"name": "Multiplayer",
+					"slug": "multiplayer"
+				},
+				{
+					"id": "53051956424090444",
+					"name": "Split screen",
+					"slug": "split-screen"
+				}
+			],
+			"horizontal_artwork": {
+				"url_format": "https://images.gog.com/ca8156f3a605423a3cabadf076285516f40760a893c45990da3539360f534bb7{formatter}.{ext}?namespace=gamesdb"
+			},
+			"background": {
+				"url_format": "https://images.gog.com/ca8156f3a605423a3cabadf076285516f40760a893c45990da3539360f534bb7{formatter}.{ext}?namespace=gamesdb"
+			},
+			"vertical_cover": {
+				"url_format": "https://images.gog.com/5addbd7394a8f15b8894d93301746d0a5eec785078f319c13c6bdcf63242b0f9{formatter}.{ext}?namespace=gamesdb"
+			},
+			"cover": {
+				"url_format": "https://images.gog.com/5addbd7394a8f15b8894d93301746d0a5eec785078f319c13c6bdcf63242b0f9{formatter}.{ext}?namespace=gamesdb"
+			},
+			"logo": {
+				"url_format": "https://images.gog.com/5addbd7394a8f15b8894d93301746d0a5eec785078f319c13c6bdcf63242b0f9{formatter}.{ext}?namespace=gamesdb"
+			},
+			"icon": {
+				"url_format": "https://images.gog.com/5addbd7394a8f15b8894d93301746d0a5eec785078f319c13c6bdcf63242b0f9{formatter}.{ext}?namespace=gamesdb"
+			},
+			"square_icon": {
+				"url_format": "https://images.gog.com/ac6e0fd44705acf9b6dd412ed127b50a2389049a3cfcef8d366ab9cf528747b8{formatter}.{ext}?namespace=gamesdb"
+			},
+			"global_popularity_all_time": 0,
+			"global_popularity_current": 0,
+			"slug": "hot-wheels-unleashed-2021"
+		},
+		"title": {
+			"*": "HOT WHEELS UNLEASHED™",
+			"en-US": "Hot Wheels Unleashed"
+		},
+		"sorting_title": {
+			"*": "HOT WHEELS UNLEASHED",
+			"en-US": "HOT WHEELS UNLEASHED"
+		},
+		"type": "game",
+		"summary": {
+			"*": "Collect the best vehicles in the Hot Wheels universe, build spectacular tracks and dive into breathtaking races. The most iconic and sought after Hot Wheels vehicles are waiting for you. Get ready to make them race at full speed!",
+			"en-US": "Collect the best vehicles in the Hot Wheels universe, build spectacular tracks and dive into breathtaking races. The most iconic and sought after Hot Wheels vehicles are waiting for you. Get ready to make them race at full speed!"
+		},
+		"videos": [],
+		"game_modes": [
+			{
+				"id": "53051895165351137",
+				"name": "Single player",
+				"slug": "single-player"
+			},
+			{
+				"id": "53051908711988230",
+				"name": "Multiplayer",
+				"slug": "multiplayer"
+			},
+			{
+				"id": "53051956424090444",
+				"name": "Split screen",
+				"slug": "split-screen"
+			}
+		],
+		"icon": {
+			"url_format": "https://images.gog.com/5addbd7394a8f15b8894d93301746d0a5eec785078f319c13c6bdcf63242b0f9{formatter}.{ext}?namespace=gamesdb"
+		},
+		"logo": {
+			"url_format": "https://images.gog.com/5addbd7394a8f15b8894d93301746d0a5eec785078f319c13c6bdcf63242b0f9{formatter}.{ext}?namespace=gamesdb"
+		},
+		"etag": "W/\"1340572761fa89d4357f98565c76b28a\""
+	},
+	"__timestamp": {
+		"epic_0006475a83f143ba807174654bc09d38": "Sat Aug 08 2026 10:06:55 GMT+0700 (Western Indonesia Time)"
+	}
+}

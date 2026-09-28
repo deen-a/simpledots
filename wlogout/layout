@@ -1,0 +1,38 @@
+{
+    "label": "lock",
+    "action": "hyprlock",
+    "text": "Lock",
+    "keybind": "i"
+},
+{
+    "label": "suspend",
+    "action": "hyprlock & disown && systemctl suspend",
+    "text": "Suspend",
+    "keybind": "s"
+},
+
+{
+    "label": "shutdown",
+    "action": "systemctl poweroff",
+    "text": "Shutdown",
+    "keybind": "u"
+},
+{
+    "label": "reboot",
+    "action": "systemctl reboot",
+    "text": "Reboot",
+    "keybind": "r"
+},
+
+{
+    "label": "logout",
+    "action": "lua $HOME/.config/wlogout/logout.lua",
+    "text": "Logout",
+    "keybind": "l"
+},
+{
+    "label": "hibernate",
+    "action": "systemctl hibernate",
+    "text": "Hibernate",
+    "keybind": "h"
+}

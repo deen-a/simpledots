@@ -1,0 +1,7 @@
+{"timestamp":15323839,"category":"genai.chatbot","name":"shortcuts_displayed","extra":{"inputType":"","glean_timestamp":"1790257247823","delay":"120643.99999999977","selection":"0"}}
+{"timestamp":17036742,"category":"web_notification_permission","name":"prompt_blocked","extra":{"site_category":"chat_communication","reason":"no_user_gesture","glean_timestamp":"1790258960726"}}
+{"timestamp":17036743,"category":"web_notification_permission","name":"icon_shown","extra":{"site_category":"chat_communication","glean_timestamp":"1790258960727"}}
+{"timestamp":29802307,"category":"normandy","name":"enroll_failed_nimbus_experiment","extra":{"glean_timestamp":"1790271728152","reason":"feature-conflict","value":"relay-integration-into-firefox-release-for-all-fxa-users"}}
+{"timestamp":29802307,"category":"nimbus_events","name":"enroll_failed","extra":{"reason":"feature-conflict","glean_timestamp":"1790271728152","experiment":"relay-integration-into-firefox-release-for-all-fxa-users"}}
+{"timestamp":29802584,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1790271728429"}}
+{"timestamp":29803673,"category":"nimbus_events","name":"database_write","extra":{"success":"true","glean_timestamp":"1790271729518"}}

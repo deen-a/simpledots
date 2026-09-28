@@ -1,0 +1,63 @@
+{
+	"71e6bd85af1841f598526da595f22a62": {
+		"about": {
+			"image": {
+				"altText": "Hot Wheels Unleashed",
+				"src": "https://cdn2.unrealengine.com/egs-hotwheelsunleashed-milestonesrl-s2-1200x1600-43c8d6d9630d.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Milestone S.r.l.",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "Milestone S.r.l.",
+			"description": "Collect the best vehicles in the Hot Wheels™ universe, build spectacular tracks and dive into breathtaking races.\n\n# COLLECTOR OR ARTIST? BOTH\n\nThe most iconic and sought after Hot Wheels™ vehicles are waiting for you. Get ready to make them race at full speed!\nStand out in the crowd by setting off your personality with the exclusive livery editor.\n\n# ALWAYS RUNNING\n\nProve your skills by competing in awesome races and get ready for pure fun! Drift, charge the booster and launch yourself into spectacular loops. But be careful! If you're too slow gravity will do its job.\n\nThe bigger the challenge, the greater the glory.\nRace side by side with your friends in split screen mode for 2 players or face up to 12 opponents in online challenges.\n\n# CREATE THE SHAPE OF YOUR TRACK\n\nWaiting to host your races are enormous interactive environments with their own distinguishing features, where every object can become an integral part of the track. \n\nUnleash your creativity with the most exciting track editor ever! Build your track by taking advantage of what surrounds you, and create amazing layouts inside and outside the race course. Bend and stretch the iconic \"orange piece\", add loops, special boosters, obstacles and special elements to make an incredible amusement park for your races. \nShare your craziest creations online and try those of other players.\n\n# RACE IN YOUR WORLD\n\nFurnish your own personal room with a huge number of elements that you will collect during your adventure and host the most amazing races inside it.\n",
+			"shortDescription": "Collect the best vehicles in the Hot Wheels™ universe, build spectacular tracks and dive into breathtaking races. The most iconic and sought after Hot Wheels™ vehicles are waiting for you. Get ready to make them race at full speed!",
+			"title": "HOT WHEELS UNLEASHED™",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "Windows 8.1 64-Bit or later",
+				"recommended": "Windows 8.1 64-Bit or later"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Processor",
+				"minimum": "Intel Core i5-2500K / AMD FX-6350",
+				"recommended": "Intel Core i7-5820K / AMD Ryzen 5 2600"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": "8 GB",
+				"recommended": "16 GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "22 GB",
+				"recommended": "22 GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Direct X",
+				"minimum": "11",
+				"recommended": "11"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Graphics",
+				"minimum": "GeForce GTX 960 / GeForce GTX 1050",
+				"recommended": "GeForce GTX 1060 / Radeon RX 580"
+			}
+		],
+		"releaseDate": "2021-09-30T16:00:00",
+		"storeUrl": "https://www.epicgames.com/store/product/hot-wheels-unleashed"
+	},
+	"__timestamp": {
+		"71e6bd85af1841f598526da595f22a62": "Sat Aug 08 2026 10:06:57 GMT+0700 (Western Indonesia Time)"
+	}
+}

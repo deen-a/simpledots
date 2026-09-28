@@ -1,0 +1,85 @@
+{
+	"userHome": "/home/shana",
+	"language": "en",
+	"settings": {
+		"analyticsOptIn": false,
+		"checkUpdatesInterval": 10,
+		"enableUpdates": false,
+		"addDesktopShortcuts": false,
+		"addStartMenuShortcuts": false,
+		"autoInstallDxvk": true,
+		"autoInstallVkd3d": true,
+		"autoInstallDxvkNvapi": true,
+		"addSteamShortcuts": false,
+		"preferSystemLibs": false,
+		"checkForUpdatesOnStartup": true,
+		"autoUpdateGames": false,
+		"customWinePaths": [],
+		"defaultInstallPath": "/home/shana/Games/Heroic",
+		"libraryTopSection": "disabled",
+		"defaultSteamPath": "/home/shana/.steam/steam",
+		"defaultWinePrefix": "/home/shana/Games/Heroic/Prefixes",
+		"defaultWinePrefixDir": "/home/shana/Games/Heroic/Prefixes",
+		"hideChangelogsOnStartup": false,
+		"language": "en",
+		"maxWorkers": 0,
+		"minimizeOnLaunch": false,
+		"nvidiaPrime": false,
+		"enviromentOptions": [],
+		"wrapperOptions": [],
+		"showFps": false,
+		"useGameMode": false,
+		"wineCrossoverBottle": "Heroic",
+		"winePrefix": "/home/shana/Games/Heroic/Prefixes/shared",
+		"wineVersion": {
+			"bin": "/usr/bin/wine",
+			"name": "wine-11.13",
+			"type": "wine",
+			"wineserver": "/usr/bin/wineserver"
+		},
+		"enableEsync": true,
+		"enableFsync": true,
+		"enableMsync": false,
+		"enableWineWayland": false,
+		"enableHDR": false,
+		"enableWoW64": false,
+		"eacRuntime": true,
+		"battlEyeRuntime": true,
+		"framelessWindow": false,
+		"hideWindowOnProtocolLaunch": false,
+		"beforeLaunchScriptPath": "",
+		"afterLaunchScriptPath": "",
+		"disableUMU": false,
+		"verboseLogs": true,
+		"downloadProtonToSteam": false,
+		"advertiseAvxForRosetta": false,
+		"noTrayIcon": false,
+		"showValveProton": false,
+		"steamGridDbApiKey": "",
+		"disableGOGPresence": false
+	},
+	"userInfo": {
+		"account_id": "0a96a748c75c4435a34b9f498a843016",
+		"displayName": "zshana",
+		"user": "shana"
+	},
+	"games": {
+		"recent": [
+			{
+				"appName": "gMxuKH919tjMWgebY2Lqzi",
+				"title": "Assetto Corsa"
+			},
+			{
+				"appName": "41869934302e4b8cafac2d3c0e7c293d",
+				"title": "Genshin Impact"
+			}
+		]
+	},
+	"window-props": {
+		"x": 0,
+		"y": 0,
+		"width": 1886,
+		"height": 1009,
+		"maximized": true
+	}
+}

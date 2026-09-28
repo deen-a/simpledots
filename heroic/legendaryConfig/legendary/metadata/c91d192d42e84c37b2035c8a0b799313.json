@@ -1,0 +1,88 @@
+{
+  "app_name": "c91d192d42e84c37b2035c8a0b799313",
+  "app_title": "LONESTAR",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "c91d192d42e84c37b2035c8a0b799313",
+      "asset_id": "c91d192d42e84c37b2035c8a0b799313",
+      "build_version": "1.0.09.01",
+      "catalog_item_id": "4467d2a0c7294d5cb8004559c96fca8d",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "4c55464eeaa94009929e1aada309347b"
+      },
+      "namespace": "52b71983d55a48c899abbc022b380c1c",
+      "sidecar_rev": 1
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2024-01-10T06:35:53.555Z",
+    "customAttributes": {
+      "FolderName": {
+        "type": "STRING",
+        "value": "LONESTARuBxQC"
+      }
+    },
+    "description": "LONESTAR is a strategic Roguelike spaceship deckbuilder. As a bounty hunter, you will capture criminals scattered across the universe. Win the shockwave battle to gain rewards and vacations. Find treasures, customize spaceships, unlock talents, defeat the felons and be a legend!",
+    "developer": "Thermite Games",
+    "developerId": "o-c4wvnkapw72ewsv6plkytlbc5f46nb",
+    "endOfSupport": false,
+    "entitlementName": "4467d2a0c7294d5cb8004559c96fca8d",
+    "entitlementType": "EXECUTABLE",
+    "id": "4467d2a0c7294d5cb8004559c96fca8d",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "LONESTAR Offer",
+        "height": 1440,
+        "md5": "0703302bd4ea64d4fb44f8050e463a8b",
+        "size": 670497,
+        "type": "DieselGameBox",
+        "uploadedDate": "2024-05-15T07:07:15.883Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/142bbd5f45fb4cf7a61b301d8a3b9900/lonestar-165ym.jpg",
+        "width": 2560
+      },
+      {
+        "alt": "Download LONESTAR Offer",
+        "height": 1600,
+        "md5": "a7931a64a3a5908b0a467bbe171bc061",
+        "size": 421061,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2024-05-15T07:07:16.639Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/142bbd5f45fb4cf7a61b301d8a3b9900/lonestar-i1pfu.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2026-05-29T22:36:59.667Z",
+    "mainGameItemList": [],
+    "namespace": "52b71983d55a48c899abbc022b380c1c",
+    "releaseInfo": [
+      {
+        "appId": "c91d192d42e84c37b2035c8a0b799313",
+        "id": "206dbd96d40c4bbcabd58e39739ca4a6",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "LONESTAR",
+    "unsearchable": false
+  },
+  "sidecar": {
+    "config": {
+      "deploymentId": "88140071d7b14198ab7884405661a7d4"
+    },
+    "rev": 1
+  }
+}

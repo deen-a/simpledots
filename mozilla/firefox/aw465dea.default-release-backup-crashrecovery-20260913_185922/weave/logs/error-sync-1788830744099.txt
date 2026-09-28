@@ -1,0 +1,52 @@
+1788830620107	Sync.LogManager	DEBUG	Flushing file log
+1788830620117	Sync.LogManager	DEBUG	Log cleanup threshold time: 1787966620117
+1788830620120	Sync.LogManager	DEBUG	Done deleting files.
+1788830723608	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1788830723608	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1788830723612	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1788830723618	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1788830723621	Sync.Service	DEBUG	User-Agent: Firefox/155.0 (Linux x86_64) FxSync/1.157.0.20260901161807.desktop
+1788830723621	Sync.Service	INFO	Starting sync at 2026-09-08 08:25:23 in browser session FDrCZ_EvgxHx
+1788830723622	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1788830723625	Sync.Status	INFO	Resetting Status.
+1788830723625	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1788830723627	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1788830723628	Sync.SyncAuthManager	INFO	Getting sync key
+1788830723628	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'https://identity.mozilla.com/apps/oldsync'
+1788830723628	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1788830723628	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'https://identity.mozilla.com/apps/oldsync'
+1788830723628	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1788830723629	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1788830723629	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1788830723629	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1788830724619	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1788830742231	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1788830742243	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1788830742244	Services.Common.TokenServerClient	DEBUG	Successful token response
+1788830742253	Sync.Status	DEBUG	Status.login: success.login => success.login
+1788830742253	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1788830742253	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1788830742265	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1788830742266	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1788830742266	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1788830742268	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1788830742269	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1788830742270	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1788830742334	Sync.Service	DEBUG	User-Agent: Firefox/155.0 (Linux x86_64) FxSync/1.157.0.20260901161807.desktop
+1788830742334	Sync.Service	INFO	Starting sync at 2026-09-08 08:25:42 in browser session FDrCZ_EvgxHx
+1788830742334	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1397:6
+sync/<@service.sys.mjs:1371:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1372:7
+1788830742339	Sync.Service	INFO	Cannot start sync: already syncing?
+1788830743749	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1788830743836	FirefoxAccounts	DEBUG	CommandQueue shutdown is flushing the queue with a timer=false
+1788830744091	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283501490/info/collections failed: [Exception... "<no message>"  nsresult: "0x805a1ff3 (<unknown>)"  location: "<unknown>"  data: no] No traceback available
+1788830744093	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "<no message>"  nsresult: "0x805a1ff3 (<unknown>)"  location: "<unknown>"  data: no] No traceback available
+1788830744095	Sync.SyncScheduler	DEBUG	Sync error count has exceeded 3; enforcing backoff.
+1788830744095	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 6288648 ms.
+1788830744095	Sync.SyncScheduler	DEBUG	Next sync in 6288648 ms. (why=client-backoff-schedule)
+1788830744098	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "<no message>"  nsresult: "0x805a1ff3 (<unknown>)"  location: "<unknown>"  data: no] No traceback available

@@ -1,0 +1,1 @@
+1784297633094	SessionStore	ERROR	NotReadableError when reading session file: clean: NotReadableError: Could not read `/home/shana/.config/mozilla/firefox/aw465dea.default-release/sessionstore.jsonlz4': could not decompress file: the file may be corrupt (NS_ERROR_FILE_CORRUPTED) No traceback available

@@ -1,0 +1,52 @@
+{
+  "41869934302e4b8cafac2d3c0e7c293d": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": true,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": false,
+    "enableMsync": false,
+    "enableFsync": false,
+    "enableWineWayland": false,
+    "enableHDR": false,
+    "enableWoW64": false,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": true,
+    "showMangohud": true,
+    "useGameMode": false,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "gamescope": {
+      "enableUpscaling": true,
+      "enableLimiter": false,
+      "enableForceGrabCursor": false,
+      "windowType": "fullscreen",
+      "gameWidth": "1280",
+      "gameHeight": "720",
+      "upscaleHeight": "1080",
+      "upscaleWidth": "1920",
+      "upscaleMethod": "fsr",
+      "fpsLimiter": "",
+      "fpsLimiterNoFocus": "",
+      "additionalOptions": ""
+    },
+    "verboseLogs": true,
+    "advertiseAvxForRosetta": false,
+    "enableQuickSavesMenu": false,
+    "wineVersion": {
+      "bin": "/usr/bin/wine",
+      "name": "wine-11.13",
+      "type": "wine",
+      "wineserver": "/usr/bin/wineserver"
+    },
+    "winePrefix": "/home/shana/Games/Heroic/Prefixes/Genshin Impact",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

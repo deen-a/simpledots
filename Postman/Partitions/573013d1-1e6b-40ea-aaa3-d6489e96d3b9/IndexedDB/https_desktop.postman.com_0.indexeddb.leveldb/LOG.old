@@ -1,0 +1,30 @@
+2026/07/31-09:18:38.124 1d1ea Reusing MANIFEST /home/shana/.config/Postman/Partitions/573013d1-1e6b-40ea-aaa3-d6489e96d3b9/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/31-09:18:38.126 1d1ea Recovering log #21
+2026/07/31-09:18:38.130 1d1ea Reusing old log /home/shana/.config/Postman/Partitions/573013d1-1e6b-40ea-aaa3-d6489e96d3b9/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/000021.log 
+2026/07/31-09:18:38.131 1d1ea Delete type=2 #20
+2026/07/31-09:18:44.361 1d1d4 Level-0 table #26: started
+2026/07/31-09:18:44.370 1d1d4 Level-0 table #26: 44264 bytes OK
+2026/07/31-09:18:44.377 1d1d4 Delete type=0 #21
+2026/07/31-09:18:44.378 1d1d4 Manual compaction at level-0 from '\x00\x0e\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0e\x00\x00\x05' @ 7203 : 1
+2026/07/31-09:18:44.378 1d1d4 Compacting 1@0 + 1@1 files
+2026/07/31-09:18:44.386 1d1d4 Generated table #27@0: 2928 keys, 37362 bytes
+2026/07/31-09:18:44.386 1d1d4 Compacted 1@0 + 1@1 files => 37362 bytes
+2026/07/31-09:18:44.389 1d1d4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/31-09:18:44.389 1d1d4 Delete type=2 #26
+2026/07/31-09:18:44.390 1d1d4 Manual compaction at level-0 from '\x00\x0e\x00\x00\x05' @ 7203 : 1 .. '\x00\x0f\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/07/31-09:18:44.646 1d1d4 Level-0 table #29: started
+2026/07/31-09:18:44.648 1d1d4 Level-0 table #29: 2215 bytes OK
+2026/07/31-09:18:44.651 1d1d4 Delete type=2 #23
+2026/07/31-09:18:44.651 1d1d4 Delete type=0 #25
+2026/07/31-09:18:44.653 1d1d4 Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0f\x00\x00\x05' @ 7240 : 1
+2026/07/31-09:18:44.653 1d1d4 Compacting 1@0 + 1@1 files
+2026/07/31-09:18:44.662 1d1d4 Generated table #30@0: 2932 keys, 37399 bytes
+2026/07/31-09:18:44.662 1d1d4 Compacted 1@0 + 1@1 files => 37399 bytes
+2026/07/31-09:18:44.665 1d1d4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/31-09:18:44.665 1d1d4 Delete type=2 #29
+2026/07/31-09:18:44.666 1d1d4 Manual compaction at level-0 from '\x00\x0f\x00\x00\x05' @ 7240 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/07/31-09:34:59.642 1d1ec Compacting 1@1 + 1@2 files
+2026/07/31-09:34:59.649 1d1ec Generated table #31@1: 853 keys, 19022 bytes
+2026/07/31-09:34:59.649 1d1ec Compacted 1@1 + 1@2 files => 19022 bytes
+2026/07/31-09:34:59.652 1d1ec compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/31-09:34:59.652 1d1ec Delete type=2 #27

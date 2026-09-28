@@ -1,0 +1,2 @@
+{"timestamp":10891979,"category":"bounce.tracking.protection","name":"purge_action","extra":{"site_host":"slido.com","success":"true","bounce_time":"1789996323","is_dry_run":"true","glean_timestamp":"1790001354230"},"execution_counter":87}
+{"timestamp":10891982,"category":"bounce.tracking.protection","name":"purge_action","extra":{"is_dry_run":"true","glean_timestamp":"1790001354230","success":"true","site_host":"s.id","bounce_time":"1789996323"},"execution_counter":87}

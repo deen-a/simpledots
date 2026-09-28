@@ -1,0 +1,1510 @@
+{
+  "app_name": "bcd55b0d87c245dd867f5b1bd496f1df",
+  "app_title": "Arknights: Endfield",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "bcd55b0d87c245dd867f5b1bd496f1df",
+      "asset_id": "bcd55b0d87c245dd867f5b1bd496f1df",
+      "build_version": "1.5.0",
+      "catalog_item_id": "6838c695288a4fcea4486285edebcfdf",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "0cef153d580845deb221a8511c4cc779",
+        "update_type": "PATCH"
+      },
+      "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+      "sidecar_rev": 1
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2025-08-07T03:16:36.935Z",
+    "customAttributes": {
+      "BackgroundProcessNames": {
+        "type": "STRING",
+        "value": "Games.exe"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "ArknightsEndfieldgowoU"
+      },
+      "MainWindowProcessName": {
+        "type": "STRING",
+        "value": "Endfield.exe"
+      },
+      "ProcessNames": {
+        "type": "STRING",
+        "value": "Endfield.exe"
+      }
+    },
+    "description": "Arknights: Endfield",
+    "developer": "Gryph Frontier",
+    "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+    "dlcItemList": [
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:51.627Z",
+        "description": "Monthly Pass_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "877c781329694d169facf3d099cf80dd",
+        "entitlementType": "AUDIENCE",
+        "id": "877c781329694d169facf3d099cf80dd",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:51.627Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Monthly Pass_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:51.621Z",
+        "description": "HH Bundle03_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "7b9dd71d5673428d8e7da5106d1f8343",
+        "entitlementType": "AUDIENCE",
+        "id": "7b9dd71d5673428d8e7da5106d1f8343",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:51.621Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "HH Bundle03_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:51.615Z",
+        "description": "112 Originium_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "319eec89db2047b4984a6ac20f8a4b90",
+        "entitlementType": "AUDIENCE",
+        "id": "319eec89db2047b4984a6ac20f8a4b90",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:51.615Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "112 Originium_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:51.630Z",
+        "description": "HH Bundle01_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "c7b8861c98a74cd085b4a44af64bc05f",
+        "entitlementType": "AUDIENCE",
+        "id": "c7b8861c98a74cd085b4a44af64bc05f",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:51.630Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "HH Bundle01_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:51.610Z",
+        "description": "Monthly Pack_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "18463f152dcd4f72aa103225561aa421",
+        "entitlementType": "AUDIENCE",
+        "id": "18463f152dcd4f72aa103225561aa421",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:51.610Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Monthly Pack_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:51.612Z",
+        "description": "nb0002_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "2ebb1067fec44f15a73cad258d6f93eb",
+        "entitlementType": "AUDIENCE",
+        "id": "2ebb1067fec44f15a73cad258d6f93eb",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:51.612Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "nb0002_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:51.628Z",
+        "description": "Weekly Pack_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "c0d4e4e45efe4a78851749070d42c50b",
+        "entitlementType": "AUDIENCE",
+        "id": "c0d4e4e45efe4a78851749070d42c50b",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:51.628Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Weekly Pack_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:51.624Z",
+        "description": "weapon01_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "7f94b19d7ace41b3972d1e69ca28d720",
+        "entitlementType": "AUDIENCE",
+        "id": "7f94b19d7ace41b3972d1e69ca28d720",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:51.624Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "weapon01_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:52.550Z",
+        "description": "Originium01_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "e471389ca42940bda6641e0f94e483df",
+        "entitlementType": "AUDIENCE",
+        "id": "e471389ca42940bda6641e0f94e483df",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:52.550Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Originium01_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2025-12-24T09:20:08.267Z",
+        "description": "nb0001_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "646804d64b0449178e6d8c75d9fa8a4a",
+        "entitlementType": "AUDIENCE",
+        "id": "646804d64b0449178e6d8c75d9fa8a4a",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-22T00:49:31.504Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "nb0001_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2025-12-24T09:14:34.932Z",
+        "description": "HH00_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "e70f07a57ee14bb7a475f744537879c7",
+        "entitlementType": "AUDIENCE",
+        "id": "e70f07a57ee14bb7a475f744537879c7",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-22T00:49:31.504Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "HH00_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:52.554Z",
+        "description": "26 Originium_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "f4a6991c0d8a40658541fe0ede0e9e08",
+        "entitlementType": "AUDIENCE",
+        "id": "f4a6991c0d8a40658541fe0ede0e9e08",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:52.554Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "26 Originium_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:52.536Z",
+        "description": "weapon03_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "0aefae24f36342bb8d28eab7a921085c",
+        "entitlementType": "AUDIENCE",
+        "id": "0aefae24f36342bb8d28eab7a921085c",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:52.536Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "weapon03_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2025-12-24T07:12:24.993Z",
+        "description": "Protocol Pass\u00b7Protocol Customized_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "e09117805e8f49d9a54fa41dfab77ec7",
+        "entitlementType": "AUDIENCE",
+        "id": "e09117805e8f49d9a54fa41dfab77ec7",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-07-15T22:06:50.950Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Protocol Pass\u00b7Protocol Customized_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:52.538Z",
+        "description": "NB000_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "0d19581b88584c6c837195071d205edb",
+        "entitlementType": "AUDIENCE",
+        "id": "0d19581b88584c6c837195071d205edb",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:52.538Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "NB000_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:52.542Z",
+        "description": "HH Bundle02_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "5e2816b3884b458d9a5184b729b6575f",
+        "entitlementType": "AUDIENCE",
+        "id": "5e2816b3884b458d9a5184b729b6575f",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:52.542Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "HH Bundle02_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:52.540Z",
+        "description": "242 Originium_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "5907a8b9267845049fbf50ed382952c7",
+        "entitlementType": "AUDIENCE",
+        "id": "5907a8b9267845049fbf50ed382952c7",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:52.540Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "242 Originium_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:52.546Z",
+        "description": "40 Originium_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "78ebc91014e944dcaf45737069e932c2",
+        "entitlementType": "AUDIENCE",
+        "id": "78ebc91014e944dcaf45737069e932c2",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:52.546Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "40 Originium_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:53.442Z",
+        "description": "68 Originium_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "3debc605a80441c2b239ebed5eab5cf3",
+        "entitlementType": "AUDIENCE",
+        "id": "3debc605a80441c2b239ebed5eab5cf3",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:53.442Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "68 Originium_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-01-18T14:24:53.440Z",
+        "description": "weapon02_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "2bf520b435ac4fd5a59e19a2be7091df",
+        "entitlementType": "AUDIENCE",
+        "id": "2bf520b435ac4fd5a59e19a2be7091df",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-01-18T14:24:53.440Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "weapon02_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-03-11T22:23:30.427Z",
+        "description": "Qingbo HH Bundle_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "9cd99c77b11b430ea0a736c82b2187a8",
+        "entitlementType": "AUDIENCE",
+        "id": "9cd99c77b11b430ea0a736c82b2187a8",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-03-11T22:23:30.427Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Qingbo HH Bundle_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-02-25T06:56:30.400Z",
+        "description": "Wolf Pearl HH Bundle_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "cdbfc9a80b7f4329a396c0dc5878ef33",
+        "entitlementType": "AUDIENCE",
+        "id": "cdbfc9a80b7f4329a396c0dc5878ef33",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-03-31T06:21:19.703Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Wolf Pearl HH Bundle_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-04-16T22:08:23.952Z",
+        "description": "seasonal_crossover_lt_1_2_1_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "a960c7a478654d3fae7fa06cf4eb8347",
+        "entitlementType": "AUDIENCE",
+        "id": "a960c7a478654d3fae7fa06cf4eb8347",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-04-16T22:08:23.952Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "seasonal_crossover_lt_1_2_1_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-04-16T22:08:23.958Z",
+        "description": "\u4f18\u60e0\u5e86\u5178\u6b66\u5e93\u5305_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "fe19e246a9dd4d6883f726c9217c8f02",
+        "entitlementType": "AUDIENCE",
+        "id": "fe19e246a9dd4d6883f726c9217c8f02",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-04-16T22:08:23.958Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "\u4f18\u60e0\u5e86\u5178\u6b66\u5e93\u5305_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-04-16T22:08:23.943Z",
+        "description": "\u6ee1\u8f7d\u5e86\u5178\u6b66\u5e93\u5305_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "71c077c170ba427c86d9a5e853485137",
+        "entitlementType": "AUDIENCE",
+        "id": "71c077c170ba427c86d9a5e853485137",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-04-16T22:08:23.943Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "\u6ee1\u8f7d\u5e86\u5178\u6b66\u5e93\u5305_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-04-16T22:08:23.938Z",
+        "description": "weapon_giftpack_04_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "2a823cb859ae48a19cc2b3b475114081",
+        "entitlementType": "AUDIENCE",
+        "id": "2a823cb859ae48a19cc2b3b475114081",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-04-16T22:08:23.938Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "weapon_giftpack_04_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-04-16T22:08:23.953Z",
+        "description": "weapon_giftpack_1_2_2_1_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "bcec83bbf47b4e569677c8a76d94d918",
+        "entitlementType": "AUDIENCE",
+        "id": "bcec83bbf47b4e569677c8a76d94d918",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-04-16T22:08:23.953Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "weapon_giftpack_1_2_2_1_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-04-16T22:08:23.950Z",
+        "description": "seasonal_giftpack_lt_1_2_2_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "9b29db485e234fc39d0f6bd6be927b74",
+        "entitlementType": "AUDIENCE",
+        "id": "9b29db485e234fc39d0f6bd6be927b74",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-04-16T22:08:23.950Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "seasonal_giftpack_lt_1_2_2_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-04-16T22:08:23.946Z",
+        "description": "\u6807\u51c6\u5e86\u5178\u6b66\u5e93\u5305_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "74566e781efb47eeb7372874062aa74e",
+        "entitlementType": "AUDIENCE",
+        "id": "74566e781efb47eeb7372874062aa74e",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-04-16T22:08:23.946Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "\u6807\u51c6\u5e86\u5178\u6b66\u5e93\u5305_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-04-16T22:08:24.998Z",
+        "description": "seasonal_giftpack_lt_1_2_1_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "9b9be98fc04f4946a8d581247a634701",
+        "entitlementType": "AUDIENCE",
+        "id": "9b9be98fc04f4946a8d581247a634701",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-04-16T22:08:24.998Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "seasonal_giftpack_lt_1_2_1_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-05-13T09:57:09.334Z",
+        "description": "\u9010\u7f6a\u5bfb\u8bbf\u7ec4\u5408\u5305_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "a116c41b5b934ae2983cbc5814f8dc02",
+        "entitlementType": "AUDIENCE",
+        "id": "a116c41b5b934ae2983cbc5814f8dc02",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-06-05T00:02:51.501Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "\u9010\u7f6a\u5bfb\u8bbf\u7ec4\u5408\u5305_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-05-13T09:53:53.780Z",
+        "description": "\u62f3\u610f\u5bfb\u8bbf\u7ec4\u5408\u5305_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "8013d57d9eb444978574b7bc33d27438",
+        "entitlementType": "AUDIENCE",
+        "id": "8013d57d9eb444978574b7bc33d27438",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-06-05T00:02:51.501Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "\u62f3\u610f\u5bfb\u8bbf\u7ec4\u5408\u5305_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-07-15T22:06:51.005Z",
+        "description": "\u4e34\u6e0a\u5bfb\u8bbf\u7ec4\u5408\u5305_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "395d3bdee1614d419cc2cde5693d5e7e",
+        "entitlementType": "AUDIENCE",
+        "id": "395d3bdee1614d419cc2cde5693d5e7e",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-07-15T22:06:51.005Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "\u4e34\u6e0a\u5bfb\u8bbf\u7ec4\u5408\u5305_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-07-15T22:06:50.999Z",
+        "description": "\u4fe1\u606f\u66f4\u65b0\u652f\u63f4\u5305_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "078c99a5f672493db98ba2007f0b7d3f",
+        "entitlementType": "AUDIENCE",
+        "id": "078c99a5f672493db98ba2007f0b7d3f",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-07-15T22:06:50.999Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "\u4fe1\u606f\u66f4\u65b0\u652f\u63f4\u5305_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-07-15T22:06:51.016Z",
+        "description": "\u76f8\u4f34\u5e86\u5178\u7ec4\u5408\u5305_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "98664be924ff43d0b2d3b52ea1752fca",
+        "entitlementType": "AUDIENCE",
+        "id": "98664be924ff43d0b2d3b52ea1752fca",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-07-15T22:06:51.016Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "\u76f8\u4f34\u5e86\u5178\u7ec4\u5408\u5305_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-07-15T22:06:51.003Z",
+        "description": "\u5411\u6e0a\u5999\u8da3\u6536\u85cf\u5305_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "308d7f0e4a364369b3afa4aae8b2b9db",
+        "entitlementType": "AUDIENCE",
+        "id": "308d7f0e4a364369b3afa4aae8b2b9db",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-07-15T22:06:51.003Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "\u5411\u6e0a\u5999\u8da3\u6536\u85cf\u5305_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      },
+      {
+        "categories": [
+          {
+            "path": "audience"
+          },
+          {
+            "path": "public"
+          }
+        ],
+        "creationDate": "2026-07-15T22:06:51.019Z",
+        "description": "\u6668\u661f\u5bfb\u8bbf\u7ec4\u5408\u5305_ConsumableAudience",
+        "developer": "Gryph Frontier",
+        "developerId": "o-uxu8c8aeepanvwyg2j778pcz443cfd",
+        "endOfSupport": false,
+        "entitlementName": "a62aee295dc44e1fa2eed2897f4727bd",
+        "entitlementType": "AUDIENCE",
+        "id": "a62aee295dc44e1fa2eed2897f4727bd",
+        "itemType": "CONSUMABLE",
+        "lastModifiedDate": "2026-07-15T22:06:51.019Z",
+        "mainGameItem": {
+          "id": "6838c695288a4fcea4486285edebcfdf",
+          "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "6838c695288a4fcea4486285edebcfdf",
+            "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "\u6668\u661f\u5bfb\u8bbf\u7ec4\u5408\u5305_ConsumableAudience",
+        "unsearchable": false,
+        "useCount": 1
+      }
+    ],
+    "endOfSupport": false,
+    "entitlementName": "6838c695288a4fcea4486285edebcfdf",
+    "entitlementType": "EXECUTABLE",
+    "id": "6838c695288a4fcea4486285edebcfdf",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "Arknights:Endfield Offer",
+        "height": 1440,
+        "md5": "91e1d2ceaaf07193f20c8a55d77f4cee",
+        "size": 1812055,
+        "type": "DieselGameBox",
+        "uploadedDate": "2026-07-08T09:06:22.430Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/3dc91103cd1b492c8ce095fea4e07c5f/arknightsendfield-19kal.png",
+        "width": 2560
+      },
+      {
+        "alt": "Download Arknights:Endfield Offer",
+        "height": 1600,
+        "md5": "1d8c6bfab991e59b3b6dcafc0ff7d534",
+        "size": 2409096,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2026-07-08T09:06:25.262Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/3dc91103cd1b492c8ce095fea4e07c5f/arknightsendfield-d7rq1.png",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2026-07-15T22:06:51.731Z",
+    "mainGameItemList": [],
+    "namespace": "14d53b5d3fcb4526a69d59f35c9dd28f",
+    "releaseInfo": [
+      {
+        "appId": "bcd55b0d87c245dd867f5b1bd496f1df",
+        "id": "1e39261dd0824c0cb26e1e35a187ff75",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Arknights: Endfield",
+    "unsearchable": false
+  },
+  "sidecar": {
+    "config": {
+      "deploymentId": "657f73a5c67e4a288e48a865b826e28e"
+    },
+    "rev": 1
+  }
+}

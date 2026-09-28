@@ -1,0 +1,194 @@
+{
+	"position": "top",
+	"margin-top": 5,
+	"margin-bottom": 0,
+
+	"modules-left": ["custom/launcher", "hyprland/workspaces"],
+	"modules-center": ["clock", "custom/cava", "tray"],
+	"modules-right": [
+		"group/utility",
+		//"custom/dashpnl",
+		"custom/notification",
+		"custom/power"
+	],
+
+
+	// LEFT MODULES 
+	"hyprland/workspaces": {
+		"format": "{icon}",
+		//"format": "{name} {windows}",
+        	"format-window-separator": " ",
+        	"window-rewrite": {
+            		"class<firefox>": "", // Icon Firefox
+            		"class<kitty>": "", // Icon Terminal
+            		"class<discord>": "", // Icon Discord
+            		"class<unityhub>": "", // Icon Unity
+            		"class<steam>": "", // Icon Game
+            		"class<Code>": "󰨞", // Icon VSCode
+            		"class<thunar>": "", // Icon Folder
+            		"title<.*youtube.*>": "" // Bisa baca title juga!
+        	},
+		"format-icons": {
+			"1": "一",
+			"2": "二",
+			"3": "三",
+			"4": "四",
+			"5": "五",
+			"6": "六",
+			"7": "七",
+			"8": "八",
+			"9": "九",
+			"10": "十"
+		},
+		"persistent-workspaces": {
+			"*": 5, // 5 workspaces by default on all monitor
+			"HDMI-A-1": 3 // Only three on HDMI-A-1
+		}
+	},
+	"custom/cava": {
+		"exec": "/home/shana/.config/waybar/scripts/cava.sh",
+		"format": "{}",
+		"tooltip": false,
+		"restart-interval": 1
+        	//"actions": {
+        	//	"on-click-right": "mode"
+        	//}
+   	},
+	"clock": {
+	    "interval": 5,
+            "format-alt": "{:%A, %B %d, %Y (%r)}",
+            "format": " {:%I:%M %p}",
+	    "tooltip": true,
+	    "tooltip-format": "{:%Y-%m-%d}"
+	},
+	"custom/launcher": {
+        	"format": "", //Arch Logo
+		//"format": "<span size='large'></span>", // Mac logo
+        	//"on-click": "~/.config/rofi/launchers/type-2/launcher.sh",
+        	//"on-click": "eww open --toggle dashboard",
+		"tooltip": false
+    	},
+
+
+	// CENTER MODULES
+	"tray": {
+		"icon-size": 21,
+		"spacing": 10
+	},
+
+
+	// RIGHT MODULES
+	"group/utility": {
+		"orientation": "horizontal",
+		"click-to-reveal": false,
+		"modules": [
+			"cpu",
+			"backlight",
+			"network",
+			"pulseaudio",
+			"battery"
+		]
+	},
+	"cpu": {
+		"format": "{icon}({usage}%)",
+		"interval": 1,
+		"format-icons": [
+			"▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"
+		]
+		//"format-icons": [
+       		//	"🁣", "🁤", "🁥", "🁦", "🁧", "🁨", "🁩", 
+       		//	"🁪", "🁫", "🁬", "🁭", "🁮", "🁯", "🁰", 
+       		//	"🁱", "🁲", "🁳", "🁴", "🁵", "🁶", "🁷", 
+		//	"🁸", "🁹", "🁺", "🁻", "🁼", "🁽", "🁾", 
+       		//	"🁿", "🂀", "🂁", "🂂", "🂃", "🂄", "🂅", 
+       		//	"🂆", "🂇", "🂈", "🂉", "🂊", "🂋", "🂌", 
+       		//	"🂍", "🂎", "🂏", "🂐", "🂑", "🂒", "🂓", "🁢"
+     		//]
+     	},
+	"backlight": {		
+		"format": "{percent}%{icon}",
+		"format-icons": ["", ""],
+		"on-click": "backlight/slider",
+		"on-scroll-up": "brightnessctl set 5%+",
+		"on-scroll-down": "brightnessctl set 5%-",
+		"reverse-scrolling": true
+	},
+	"pulseaudio": {
+		"format": "{volume}%{icon}",
+		"format-bluetooth": "{volume}%{icon}",
+		"format-muted": "",
+		"format-icons": {
+			"headphone": "",
+			"hands-free": "",
+			"headset": "",
+			"phone": "",
+			"phone-muted": "",
+			"portable": "",
+			"car": "",
+			"default": ["", ""]
+		},
+		"scroll-step": 1,
+		"on-click": "pavucontrol",
+		"on-right-click": "blueman-manager",
+		"ignored-sinks": ["Easy Effects Sink"],
+		"reverse-scrolling": true
+	},
+	"custom/dashpnl": {
+		"format": "                                          ",
+		"tooltip": false
+	},
+	"network": { 
+		"interval": 1,
+		"format": "{ifname}",
+		"format-wifi": "{signalStrength}% ({bandwidthTotalBytes})",
+		"format-disconnected": "󰤮",
+		"format-ethernet": "Eth󰈀({bandwidthTotalBytes})",
+		"tooltip-format": "{ifname} via {gwaddr} 󰊗",
+		"tooltip-format-wifi": "{essid}  ({bandwidthUpBytes}↑, {bandwidthDownBytes}↓)",
+		"tooltip-format-ethernet": "{ifname} 󰈀 ({bandwidthUpBytes}↑, {bandwidthDownBytes}↓)",
+		"tooltip-format-disconnected": "Internet Disconnected",
+		"max-length": 50,
+		"on-click": "nm-connection-editor",
+		"ignored-interfaces": ["docker0"],
+		"on-click-right": "kitty -e nmtui"
+	},
+	"battery": {
+		"interval": 30,
+		"format": "{capacity}%{icon}",
+        "exec": "[[ $( cat /sys/class/power_supply/ACAD/online ) -eq 0 && $( cat /sys/class/power_supply/BAT1/capacity ) -le 5 ]] && systemctl poweroff",
+		"states": {
+			"warning": 20,
+			"critical": 10
+		},
+		"format-icons": {
+			"default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+			"charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
+		}
+	},
+	"custom/notification": {
+		"tooltip": true,
+		"format": "<span size='16pt'>{icon}</span>",
+		"format-icons": {
+			"notification": "󱅫",
+			"none": "󰂜",
+			"dnd-notification": "󰂠",
+			"dnd-none": "󰪓",
+			"inhibited-notification": "󰂛",
+			"inhibited-none": "󰪑",
+			"dnd-inhibited-notification": "󰂛",
+			"dnd-inhibited-none": "󰪑"
+		},
+		"return-type": "json",
+		"exec-if": "which swaync-client",
+		"exec": "swaync-client -swb",
+		"on-click": "swaync-client -t -sw",
+		"on-click-right": "swaync-client -d -sw",
+		"escape": true
+	},
+	"custom/power": {
+            "interval": 20,
+        	"format": "⏻",
+        	"on-click": "wlogout", // needs wlogout
+        	"tooltip": false
+    	}
+}

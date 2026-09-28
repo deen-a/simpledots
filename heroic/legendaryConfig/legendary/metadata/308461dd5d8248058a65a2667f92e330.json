@@ -1,0 +1,85 @@
+{
+  "app_name": "308461dd5d8248058a65a2667f92e330",
+  "app_title": "Citizen Sleeper",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "308461dd5d8248058a65a2667f92e330",
+      "asset_id": "308461dd5d8248058a65a2667f92e330",
+      "build_version": "1.4.14",
+      "catalog_item_id": "d91f1dd2dfbd4576b0966ab0f4eed09f",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "a303ae073568470c86c4baf89a1d0025",
+        "update_type": "PATCH"
+      },
+      "namespace": "e4ef0c8c500a41eaa57c53d32410595d",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2021-09-21T21:43:57.009Z",
+    "customAttributes": {
+      "FolderName": {
+        "type": "STRING",
+        "value": "CitizenSleeperXbYLR"
+      }
+    },
+    "description": "Roleplaying in the ruins of interplanetary capitalism. Live the life of an escaped worker, washed-up on a lawless station at the edge of an interstellar society. Inspired by the flexibility and freedom of TTRPGs, choose your friends, escape your past and change your future.",
+    "developer": "Surprise Attack Pty Ltd DBA Fellow Traveller Games",
+    "developerId": "o-22uq4lnmzc6kmlbbaf5gp8yvysnn3t",
+    "endOfSupport": false,
+    "entitlementName": "d91f1dd2dfbd4576b0966ab0f4eed09f",
+    "entitlementType": "EXECUTABLE",
+    "id": "d91f1dd2dfbd4576b0966ab0f4eed09f",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "Citizen Sleeper Offer",
+        "height": 1440,
+        "md5": "1c7afab36ebd6fc366b6c33291aa9780",
+        "size": 2574022,
+        "type": "DieselGameBox",
+        "uploadedDate": "2022-04-12T05:25:05.633Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/citizen-sleeper-offer-193mr.jpg",
+        "width": 2560
+      },
+      {
+        "alt": "Download Citizen Sleeper Offer",
+        "height": 1600,
+        "md5": "ff9d23d3ebdc81cf802a98791fedd590",
+        "size": 596187,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2022-04-01T04:35:33.248Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/download-citizen-sleeper-offer-15my0.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2025-03-19T06:45:59.854Z",
+    "mainGameItemList": [],
+    "namespace": "e4ef0c8c500a41eaa57c53d32410595d",
+    "releaseInfo": [
+      {
+        "appId": "308461dd5d8248058a65a2667f92e330",
+        "id": "53ac33e5d7f844f7bc7b7078211cc8dd",
+        "platform": [
+          "Win32",
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Citizen Sleeper",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

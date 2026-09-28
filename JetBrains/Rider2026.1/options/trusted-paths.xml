@@ -1,0 +1,14 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Documents/code/VSProjects/PerpusDigital" value="true" />
+        <entry key="$USER_HOME$/Documents/code/VSProjects/PerpusDigital/.idea/.idea.PerpusDigital" value="true" />
+        <entry key="$USER_HOME$/VSProjects/PerpusDigital" value="true" />
+        <entry key="$USER_HOME$/VSProjects/PerpusDigital/.idea/.idea.PerpusDigital" value="true" />
+        <entry key="$USER_HOME$/VSProjects/perpusDigital" value="true" />
+        <entry key="$USER_HOME$/VSProjects/perpusDigital/.idea/.idea.perpusDigital" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

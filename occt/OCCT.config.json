@@ -1,0 +1,1482 @@
+{
+  "Version": 1210,
+  "EulaVersion": 20240402,
+  "WindowTop": 54,
+  "WindowLeft": 17,
+  "WindowWidth": 1886,
+  "WindowHeight": 1009,
+  "WindowState": 0,
+  "EnabledTemperatureSensors": [
+    {
+      "DeviceName": "AMD Ryzen 3 3250U with Radeon Graphics",
+      "Name": "Tctl",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series]",
+      "Name": "Gpu Edge Temperature",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledVoltageSensors": [],
+  "EnabledFanSensors": [],
+  "EnabledPowerSensors": [],
+  "EnabledCurrentSensors": [],
+  "EnabledFrequencySensors": [
+    {
+      "DeviceName": "AMD Ryzen 3 3250U with Radeon Graphics",
+      "Name": "Core 0 Clock",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Ryzen 3 3250U with Radeon Graphics",
+      "Name": "Core 1 Clock",
+      "LocationIndex": 1
+    }
+  ],
+  "EnabledUsageSensors": [
+    {
+      "DeviceName": "Memory",
+      "Name": "Physical memory load",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series]",
+      "Name": "Gpu Memory Usage",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series]",
+      "Name": "Gpu Memory Usage (%)",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledOtherSensors": [],
+  "SensorClassStates": [
+    {
+      "SensorClass": "Temperature",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Voltage",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Power",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Current",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Fan",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Frequency",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Usage",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Other",
+      "IsEnabled": true
+    }
+  ],
+  "DeviceTypeStates": [
+    {
+      "DeviceType": "Cpu",
+      "IsEnabled": true
+    },
+    {
+      "DeviceType": "Gpu",
+      "IsEnabled": true
+    },
+    {
+      "DeviceType": "Motherboard",
+      "IsEnabled": true
+    },
+    {
+      "DeviceType": "Storage",
+      "IsEnabled": true
+    },
+    {
+      "DeviceType": "Memory",
+      "IsEnabled": true
+    },
+    {
+      "DeviceType": "Other",
+      "IsEnabled": true
+    }
+  ],
+  "UseOpenGlRenderer": false,
+  "MonitoringUpdateInterval": 2,
+  "MonitoringUpdateIntervalUnit": "Seconds",
+  "GraphUpdateInterval": 2,
+  "GraphUpdateIntervalUnit": "Seconds",
+  "TemperatureAlertValue": 90,
+  "IsTemperatureAlertValueEnabled": false,
+  "Language": "English",
+  "Monitoring": true,
+  "MonitoringTableWidth": 544,
+  "SelectedMonitoringIndex": 0,
+  "SelectedArea": 0,
+  "CheckForUpdates": "Stable",
+  "SaveReportPath": "/home/shana/Documents",
+  "SaveScreenshotPath": "/home/shana/Documents",
+  "MotherboardName": "",
+  "SelectedComponentUsage": "System",
+  "MonitoringShowOnlyEnabledSensors": false,
+  "MonitoringAreaDisplayMode": "TableAndGraph",
+  "StopOnError": false,
+  "StopOnWheaError": false,
+  "MonitoringEcEnable": true,
+  "MonitoringSmBusEnable": true,
+  "MonitoringGpuI2CEnable": false,
+  "MonitoringDriveScanEnable": true,
+  "MonitoringCsmiSasEnable": false,
+  "MonitoringImeEnable": false,
+  "MonitoringCorsairAsetekEnable": false,
+  "MonitoringSnapshotPollingEnable": true,
+  "MonitoringDebugModeEnable": false,
+  "AllowOcbaseUpload": true,
+  "Skin": 1,
+  "FontSizeOffset": 0.0,
+  "LicenseExpirationWarningLastDisplay": 999,
+  "StabilitySchedule": {
+    "ScheduleType": "Stability",
+    "StabilityCertificateType": "System",
+    "IsPrivate": false,
+    "Periods": [
+      {
+        "Duration": "01:00:00",
+        "Version": "170000142000",
+        "IsInfinite": false,
+        "TestType": "Combined",
+        "CpuOcctConfig": {
+          "DataSet": "Large",
+          "OcctInstructionSet": "Auto",
+          "LoadType": "Variable",
+          "Mode": "Extreme",
+          "Threads": "Auto",
+          "FixedThreadCount": 4,
+          "StartAtCycle": 1,
+          "AdvancedThreadConfig": {
+            "AdvancedThreadType": "CycleAllCores",
+            "CycleActiveCoreInterval": 3,
+            "CycleActiveCoreIntervalUnit": "Seconds",
+            "CoreConfigs": [
+              {
+                "CoreNumber": 0,
+                "State": 2
+              },
+              {
+                "CoreNumber": 1,
+                "State": 1
+              }
+            ],
+            "NumThreadsPerGroup": 2
+          },
+          "Priority": "Normal"
+        },
+        "CpuOnlyOcctConfig": {
+          "DataSet": "Large",
+          "OcctInstructionSet": "Auto",
+          "LoadType": "Variable",
+          "Mode": "Normal",
+          "Threads": "Auto",
+          "FixedThreadCount": 4,
+          "StartAtCycle": 1,
+          "AdvancedThreadConfig": {
+            "AdvancedThreadType": "CycleAllCores",
+            "CycleActiveCoreInterval": 5,
+            "CycleActiveCoreIntervalUnit": "Minutes",
+            "CoreConfigs": [
+              {
+                "CoreNumber": 0,
+                "State": 2
+              },
+              {
+                "CoreNumber": 1,
+                "State": 1
+              }
+            ],
+            "NumThreadsPerGroup": 2
+          },
+          "Priority": "Normal"
+        },
+        "CpuLinpackConfig": {
+          "Version": "v2019",
+          "Threads": "PhysicalAndVirtual",
+          "Memory": 2048,
+          "Priority": "Normal"
+        },
+        "MemoryConfig": {
+          "MemoryInPercent": 80,
+          "MemoryMemUnit": "Percent",
+          "Threads": "Auto",
+          "FixedThreadCount": 0,
+          "InstructionSet": "Auto",
+          "TestType": 2,
+          "CustomTests": [
+            {
+              "CustomTestType": 15,
+              "InstructionSet": "Sse",
+              "Jump": 2,
+              "Param0": 2697700842,
+              "Param1": 2769078181,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 1,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 15,
+              "Param1": 0,
+              "IsCollapsed": true
+            },
+            {
+              "CustomTestType": 8,
+              "InstructionSet": "Sse",
+              "Jump": 3,
+              "Param0": 2697700842,
+              "Param1": 2769078181,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 2,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 0,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 3,
+              "InstructionSet": "Avx2",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 11,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 1,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 15,
+              "Param1": 0,
+              "IsCollapsed": true
+            },
+            {
+              "CustomTestType": 16,
+              "InstructionSet": "Sse",
+              "Jump": 143,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 6,
+              "InstructionSet": "Sse",
+              "Jump": 143,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 7,
+              "InstructionSet": "Sse",
+              "Jump": 143,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 2,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 15,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 0,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 10,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 0,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            }
+          ],
+          "Priority": "Normal"
+        },
+        "Gpu3dConfig": {
+          "Mode": "NoErrorDetection",
+          "UsageLimit": 100,
+          "ShaderComplexity": 3,
+          "GpuIndexes": [
+            0
+          ],
+          "TestAllGpus": false,
+          "Priority": "Normal"
+        },
+        "GpuUnrealConfig": {
+          "IntensityType": "Steady",
+          "SteadyIntensityType": "Extreme",
+          "SteadyLoad": 50,
+          "VariableIntensityIncreaseIntervalTimeSpan": "00:00:30",
+          "VariableIntensityIncreaseStep": 5,
+          "VariableMinIntensity": 20,
+          "VariableMaxIntensity": 100,
+          "SwitchInterval": 500,
+          "SwitchFirstIntensity": 25,
+          "SwitchSecondIntensity": 100,
+          "GpuIndexes": [
+            0
+          ],
+          "TestAllGpus": false,
+          "SelectType": 2,
+          "CoilWhinePartition": "SpinningCat",
+          "Priority": "Normal"
+        },
+        "GpuComputeConfig": {
+          "GpuIndexes": [],
+          "TestAllGpus": false,
+          "MemoryInMiB": 0,
+          "MemoryInPercent": 0,
+          "MemoryMemUnit": "Percent",
+          "SelectType": 2,
+          "Priority": "Normal"
+        },
+        "VramConfig": {
+          "GpuIndexes": [
+            0
+          ],
+          "TestAllGpus": false,
+          "GpuIndex": 0,
+          "MemoryInMiB": 0,
+          "MemoryInPercent": 80,
+          "MemoryMemUnit": "Percent",
+          "SelectType": 2,
+          "Priority": "Normal"
+        },
+        "MonitoringOnlyConfig": {
+          "Type": 0,
+          "Priority": "Normal"
+        },
+        "StorageConfig": {
+          "Paths": [],
+          "TestSizeMiB": 2048
+        },
+        "PowerSupplyConfig": {
+          "CpuOcctInstructionSet": "Auto",
+          "GpuIndexes": [
+            0
+          ],
+          "TestAllGpus": false,
+          "SelectType": 2
+        },
+        "CombinedConfig": {
+          "CpuOcct": true,
+          "CpuOcctConfig": {
+            "DataSet": "Medium",
+            "OcctInstructionSet": "Auto",
+            "LoadType": "Variable",
+            "Mode": "Normal",
+            "Threads": "Auto",
+            "FixedThreadCount": 4,
+            "StartAtCycle": 1,
+            "AdvancedThreadConfig": {
+              "AdvancedThreadType": "CycleAllCores",
+              "CycleActiveCoreInterval": 3,
+              "CycleActiveCoreIntervalUnit": "Seconds",
+              "CoreConfigs": [
+                {
+                  "CoreNumber": 0,
+                  "State": 2
+                },
+                {
+                  "CoreNumber": 1,
+                  "State": 1
+                }
+              ],
+              "NumThreadsPerGroup": 2
+            },
+            "Priority": "High"
+          },
+          "CpuOnlyOcct": false,
+          "CpuOnlyOcctConfig": {
+            "DataSet": "Large",
+            "OcctInstructionSet": "Auto",
+            "LoadType": "Variable",
+            "Mode": "Normal",
+            "Threads": "Auto",
+            "FixedThreadCount": 0,
+            "StartAtCycle": 1,
+            "AdvancedThreadConfig": {
+              "AdvancedThreadType": "CycleAllCores",
+              "CycleActiveCoreInterval": 3,
+              "CycleActiveCoreIntervalUnit": "Seconds",
+              "CoreConfigs": [],
+              "NumThreadsPerGroup": 2
+            },
+            "Priority": "Normal"
+          },
+          "CpuLinpack": false,
+          "CpuLinpackConfig": {
+            "Version": "v2019",
+            "Threads": "PhysicalAndVirtual",
+            "Memory": 2048,
+            "Priority": "Normal"
+          },
+          "Memory": false,
+          "MemoryConfig": {
+            "MemoryInPercent": 80,
+            "MemoryMemUnit": "Percent",
+            "Threads": "Auto",
+            "FixedThreadCount": 0,
+            "InstructionSet": "Auto",
+            "TestType": 2,
+            "CustomTests": [
+              {
+                "CustomTestType": 1,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 32,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 13,
+                "InstructionSet": "Sse",
+                "Jump": 4,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 0,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 2,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 1,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 32,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 13,
+                "InstructionSet": "Sse",
+                "Jump": 22,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 0,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 2,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 1,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 32,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 13,
+                "InstructionSet": "Sse",
+                "Jump": 598,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 0,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 2,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 4,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 8,
+                "InstructionSet": "Sse",
+                "Jump": 50,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 1,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 32,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 4,
+                "InstructionSet": "Avx2",
+                "Jump": 50,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 8,
+                "InstructionSet": "Avx2",
+                "Jump": 50,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 0,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 2,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 1,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 32,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 4,
+                "InstructionSet": "Avx2",
+                "Jump": 598,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 8,
+                "InstructionSet": "Avx2",
+                "Jump": 598,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 0,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 2,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 1,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 32,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 4,
+                "InstructionSet": "Avx2",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 8,
+                "InstructionSet": "Avx2",
+                "Jump": 1298,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 0,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 2,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 1,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 32,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 15,
+                "InstructionSet": "Sse",
+                "Jump": 22,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 0,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 2,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 1,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 32,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 15,
+                "InstructionSet": "Sse",
+                "Jump": 50,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 0,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 2,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              }
+            ],
+            "Priority": "Normal"
+          },
+          "Gpu3d": false,
+          "Gpu3dConfig": {
+            "Mode": "NoErrorDetection",
+            "UsageLimit": 100,
+            "ShaderComplexity": 3,
+            "GpuIndexes": [
+              0
+            ],
+            "TestAllGpus": false,
+            "Priority": "Normal"
+          },
+          "GpuUnreal": true,
+          "GpuUnrealConfig": {
+            "IntensityType": "Variable",
+            "SteadyIntensityType": "Heavy",
+            "SteadyLoad": 50,
+            "VariableIntensityIncreaseIntervalTimeSpan": "00:00:30",
+            "VariableIntensityIncreaseStep": 10,
+            "VariableMinIntensity": 20,
+            "VariableMaxIntensity": 100,
+            "SwitchInterval": 500,
+            "SwitchFirstIntensity": 25,
+            "SwitchSecondIntensity": 100,
+            "GpuIndexes": [
+              0
+            ],
+            "TestAllGpus": false,
+            "SelectType": 0,
+            "CoilWhinePartition": "SpinningCat",
+            "Priority": "AboveNormal"
+          },
+          "GpuCompute": false,
+          "GpuComputeConfig": {
+            "GpuIndexes": [],
+            "TestAllGpus": false,
+            "MemoryInMiB": 0,
+            "MemoryInPercent": 0,
+            "MemoryMemUnit": "Percent",
+            "SelectType": 2,
+            "Priority": "Normal"
+          },
+          "Vram": true,
+          "VramConfig": {
+            "GpuIndexes": [
+              0
+            ],
+            "TestAllGpus": false,
+            "GpuIndex": 0,
+            "MemoryInMiB": 0,
+            "MemoryInPercent": 0,
+            "MemoryMemUnit": "Percent",
+            "SelectType": 0,
+            "Priority": "Normal"
+          }
+        },
+        "CpuBenchmarkConfig": {
+          "Run": 0,
+          "Threads": "Single",
+          "InstructionSet": 0
+        },
+        "MemoryBenchmarkConfig": {
+          "Run": 0,
+          "BenchmarkType": "Read"
+        },
+        "LatencyBandwidthBenchmarkConfig": {
+          "BandwidthBenchmarkType": 0,
+          "CustomSizeInKb": [
+            8,
+            12,
+            16,
+            24,
+            32,
+            48,
+            64,
+            96,
+            128,
+            192,
+            256,
+            384,
+            512,
+            768,
+            1024,
+            1536,
+            2048,
+            3072,
+            4096,
+            6144,
+            8192,
+            12288,
+            16384,
+            24576,
+            32768,
+            49152,
+            65536,
+            98304,
+            131072,
+            196608,
+            262144,
+            393216,
+            524288,
+            786432,
+            1048576,
+            1572864,
+            2097152,
+            3145728,
+            4194304
+          ]
+        },
+        "StorageBenchmarkConfig": {
+          "Run": 0,
+          "StorageBenchmarkType": 0
+        }
+      }
+    ]
+  },
+  "BenchmarkSchedule": {
+    "ScheduleType": "Benchmark",
+    "StabilityCertificateType": "System",
+    "IsPrivate": false,
+    "Periods": [
+      {
+        "Duration": "00:30:00",
+        "Version": "170000142000",
+        "IsInfinite": true,
+        "TestType": "CpuBenchmark",
+        "CpuOcctConfig": {
+          "DataSet": "Large",
+          "OcctInstructionSet": "Auto",
+          "LoadType": "Variable",
+          "Mode": "Normal",
+          "Threads": "Auto",
+          "FixedThreadCount": 0,
+          "StartAtCycle": 1,
+          "AdvancedThreadConfig": {
+            "AdvancedThreadType": "CycleAllCores",
+            "CycleActiveCoreInterval": 3,
+            "CycleActiveCoreIntervalUnit": "Seconds",
+            "CoreConfigs": [],
+            "NumThreadsPerGroup": 2
+          },
+          "Priority": "Normal"
+        },
+        "CpuOnlyOcctConfig": {
+          "DataSet": "Large",
+          "OcctInstructionSet": "Auto",
+          "LoadType": "Variable",
+          "Mode": "Normal",
+          "Threads": "Auto",
+          "FixedThreadCount": 0,
+          "StartAtCycle": 1,
+          "AdvancedThreadConfig": {
+            "AdvancedThreadType": "CycleAllCores",
+            "CycleActiveCoreInterval": 5,
+            "CycleActiveCoreIntervalUnit": "Minutes",
+            "CoreConfigs": [],
+            "NumThreadsPerGroup": 2
+          },
+          "Priority": "Normal"
+        },
+        "CpuLinpackConfig": {
+          "Version": "v2019",
+          "Threads": "PhysicalAndVirtual",
+          "Memory": 2048,
+          "Priority": "Normal"
+        },
+        "MemoryConfig": {
+          "MemoryInPercent": 80,
+          "MemoryMemUnit": "Percent",
+          "Threads": "Auto",
+          "FixedThreadCount": 0,
+          "InstructionSet": "Auto",
+          "TestType": 2,
+          "CustomTests": [
+            {
+              "CustomTestType": 15,
+              "InstructionSet": "Sse",
+              "Jump": 2,
+              "Param0": 2697700842,
+              "Param1": 2769078181,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 1,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 15,
+              "Param1": 0,
+              "IsCollapsed": true
+            },
+            {
+              "CustomTestType": 8,
+              "InstructionSet": "Sse",
+              "Jump": 3,
+              "Param0": 2697700842,
+              "Param1": 2769078181,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 2,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 0,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 3,
+              "InstructionSet": "Avx2",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 11,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 1,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 15,
+              "Param1": 0,
+              "IsCollapsed": true
+            },
+            {
+              "CustomTestType": 16,
+              "InstructionSet": "Sse",
+              "Jump": 143,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 6,
+              "InstructionSet": "Sse",
+              "Jump": 143,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 7,
+              "InstructionSet": "Sse",
+              "Jump": 143,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 2,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 15,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 0,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 10,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            },
+            {
+              "CustomTestType": 0,
+              "InstructionSet": "Sse",
+              "Jump": 0,
+              "Param0": 0,
+              "Param1": 0,
+              "IsCollapsed": false
+            }
+          ],
+          "Priority": "Normal"
+        },
+        "Gpu3dConfig": {
+          "Mode": "NoErrorDetection",
+          "UsageLimit": 100,
+          "ShaderComplexity": 3,
+          "GpuIndexes": [
+            0
+          ],
+          "TestAllGpus": false,
+          "Priority": "Normal"
+        },
+        "GpuUnrealConfig": {
+          "IntensityType": "Steady",
+          "SteadyIntensityType": "Extreme",
+          "SteadyLoad": 50,
+          "VariableIntensityIncreaseIntervalTimeSpan": "00:00:30",
+          "VariableIntensityIncreaseStep": 5,
+          "VariableMinIntensity": 20,
+          "VariableMaxIntensity": 100,
+          "SwitchInterval": 500,
+          "SwitchFirstIntensity": 25,
+          "SwitchSecondIntensity": 100,
+          "GpuIndexes": [
+            0
+          ],
+          "TestAllGpus": false,
+          "SelectType": 2,
+          "CoilWhinePartition": "SpinningCat",
+          "Priority": "Normal"
+        },
+        "GpuComputeConfig": {
+          "GpuIndexes": [],
+          "TestAllGpus": false,
+          "MemoryInMiB": 0,
+          "MemoryInPercent": 0,
+          "MemoryMemUnit": "Percent",
+          "SelectType": 2,
+          "Priority": "Normal"
+        },
+        "VramConfig": {
+          "GpuIndexes": [
+            0
+          ],
+          "TestAllGpus": false,
+          "GpuIndex": 0,
+          "MemoryInMiB": 0,
+          "MemoryInPercent": 80,
+          "MemoryMemUnit": "Percent",
+          "SelectType": 2,
+          "Priority": "Normal"
+        },
+        "MonitoringOnlyConfig": {
+          "Type": 0,
+          "Priority": "Normal"
+        },
+        "StorageConfig": {
+          "Paths": [],
+          "TestSizeMiB": 2048
+        },
+        "PowerSupplyConfig": {
+          "CpuOcctInstructionSet": "Auto",
+          "GpuIndexes": [
+            0
+          ],
+          "TestAllGpus": false,
+          "SelectType": 2
+        },
+        "CombinedConfig": {
+          "CpuOcct": false,
+          "CpuOcctConfig": {
+            "DataSet": "Large",
+            "OcctInstructionSet": "Auto",
+            "LoadType": "Variable",
+            "Mode": "Normal",
+            "Threads": "Auto",
+            "FixedThreadCount": 0,
+            "StartAtCycle": 1,
+            "AdvancedThreadConfig": {
+              "AdvancedThreadType": "CycleAllCores",
+              "CycleActiveCoreInterval": 3,
+              "CycleActiveCoreIntervalUnit": "Seconds",
+              "CoreConfigs": [],
+              "NumThreadsPerGroup": 2
+            },
+            "Priority": "Normal"
+          },
+          "CpuOnlyOcct": false,
+          "CpuOnlyOcctConfig": {
+            "DataSet": "Large",
+            "OcctInstructionSet": "Auto",
+            "LoadType": "Variable",
+            "Mode": "Normal",
+            "Threads": "Auto",
+            "FixedThreadCount": 0,
+            "StartAtCycle": 1,
+            "AdvancedThreadConfig": {
+              "AdvancedThreadType": "CycleAllCores",
+              "CycleActiveCoreInterval": 3,
+              "CycleActiveCoreIntervalUnit": "Seconds",
+              "CoreConfigs": [],
+              "NumThreadsPerGroup": 2
+            },
+            "Priority": "Normal"
+          },
+          "CpuLinpack": false,
+          "CpuLinpackConfig": {
+            "Version": "v2019",
+            "Threads": "PhysicalAndVirtual",
+            "Memory": 2048,
+            "Priority": "Normal"
+          },
+          "Memory": false,
+          "MemoryConfig": {
+            "MemoryInPercent": 80,
+            "MemoryMemUnit": "Percent",
+            "Threads": "Auto",
+            "FixedThreadCount": 0,
+            "InstructionSet": "Auto",
+            "TestType": 2,
+            "CustomTests": [
+              {
+                "CustomTestType": 15,
+                "InstructionSet": "Sse",
+                "Jump": 2,
+                "Param0": 2697700842,
+                "Param1": 2769078181,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 1,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 15,
+                "Param1": 0,
+                "IsCollapsed": true
+              },
+              {
+                "CustomTestType": 8,
+                "InstructionSet": "Sse",
+                "Jump": 3,
+                "Param0": 2697700842,
+                "Param1": 2769078181,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 2,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 0,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 3,
+                "InstructionSet": "Avx2",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 11,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 1,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 15,
+                "Param1": 0,
+                "IsCollapsed": true
+              },
+              {
+                "CustomTestType": 16,
+                "InstructionSet": "Sse",
+                "Jump": 143,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 6,
+                "InstructionSet": "Sse",
+                "Jump": 143,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 7,
+                "InstructionSet": "Sse",
+                "Jump": 143,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 2,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 15,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 0,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 10,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              },
+              {
+                "CustomTestType": 0,
+                "InstructionSet": "Sse",
+                "Jump": 0,
+                "Param0": 0,
+                "Param1": 0,
+                "IsCollapsed": false
+              }
+            ],
+            "Priority": "Normal"
+          },
+          "Gpu3d": false,
+          "Gpu3dConfig": {
+            "Mode": "NoErrorDetection",
+            "UsageLimit": 100,
+            "ShaderComplexity": 3,
+            "GpuIndexes": [
+              0
+            ],
+            "TestAllGpus": false,
+            "Priority": "Normal"
+          },
+          "GpuUnreal": false,
+          "GpuUnrealConfig": {
+            "IntensityType": "Steady",
+            "SteadyIntensityType": "Extreme",
+            "SteadyLoad": 50,
+            "VariableIntensityIncreaseIntervalTimeSpan": "00:00:30",
+            "VariableIntensityIncreaseStep": 5,
+            "VariableMinIntensity": 20,
+            "VariableMaxIntensity": 100,
+            "SwitchInterval": 500,
+            "SwitchFirstIntensity": 25,
+            "SwitchSecondIntensity": 100,
+            "GpuIndexes": [
+              0
+            ],
+            "TestAllGpus": false,
+            "SelectType": 2,
+            "CoilWhinePartition": "SpinningCat",
+            "Priority": "Normal"
+          },
+          "GpuCompute": false,
+          "GpuComputeConfig": {
+            "GpuIndexes": [],
+            "TestAllGpus": false,
+            "MemoryInMiB": 0,
+            "MemoryInPercent": 0,
+            "MemoryMemUnit": "Percent",
+            "SelectType": 2,
+            "Priority": "Normal"
+          },
+          "Vram": false,
+          "VramConfig": {
+            "GpuIndexes": [
+              0
+            ],
+            "TestAllGpus": false,
+            "GpuIndex": 0,
+            "MemoryInMiB": 0,
+            "MemoryInPercent": 80,
+            "MemoryMemUnit": "Percent",
+            "SelectType": 2,
+            "Priority": "Normal"
+          }
+        },
+        "CpuBenchmarkConfig": {
+          "Run": 0,
+          "Threads": "Multiple",
+          "InstructionSet": 1
+        },
+        "MemoryBenchmarkConfig": {
+          "Run": 0,
+          "BenchmarkType": "Read"
+        },
+        "LatencyBandwidthBenchmarkConfig": {
+          "BandwidthBenchmarkType": 0,
+          "CustomSizeInKb": [
+            8,
+            12,
+            16,
+            24,
+            32,
+            48,
+            64,
+            96,
+            128,
+            192,
+            256,
+            384,
+            512,
+            768,
+            1024,
+            1536,
+            2048,
+            3072,
+            4096,
+            6144,
+            8192,
+            12288,
+            16384,
+            24576,
+            32768,
+            49152,
+            65536,
+            98304,
+            131072,
+            196608,
+            262144,
+            393216,
+            524288,
+            786432,
+            1048576,
+            1572864,
+            2097152,
+            3145728,
+            4194304
+          ]
+        },
+        "StorageBenchmarkConfig": {
+          "Run": 0,
+          "StorageBenchmarkType": 0
+        }
+      }
+    ]
+  },
+  "StabilityCertificateSchedule": {
+    "ScheduleType": "StabilityCertificate",
+    "StabilityCertificateType": "System",
+    "IsPrivate": false,
+    "StabilityCertificateConfigs": [
+      {
+        "StabilityCertificateType": "Cpu",
+        "StabilityCertificateLevel": "Bronze",
+        "GpuIndexes": [],
+        "GpuNames": []
+      },
+      {
+        "StabilityCertificateType": "Gpu",
+        "StabilityCertificateLevel": "Bronze",
+        "GpuIndexes": [],
+        "GpuNames": []
+      },
+      {
+        "StabilityCertificateType": "Memory",
+        "StabilityCertificateLevel": "Bronze",
+        "GpuIndexes": [],
+        "GpuNames": []
+      },
+      {
+        "StabilityCertificateType": "System",
+        "StabilityCertificateLevel": "Bronze",
+        "GpuIndexes": [
+          0
+        ],
+        "GpuNames": [
+          "AMD Radeon Vega 3 Graphics (RADV RAVEN2)"
+        ]
+      },
+      {
+        "StabilityCertificateType": "SystemNo3d",
+        "StabilityCertificateLevel": "Bronze",
+        "GpuIndexes": [],
+        "GpuNames": []
+      }
+    ],
+    "Periods": []
+  },
+  "OptimizeEditionOptimizeSchedule": {
+    "ScheduleType": "CpuOptimize",
+    "StabilityCertificateType": "System",
+    "IsPrivate": false,
+    "Periods": []
+  },
+  "SelectedMonitoringSummaryCpuIndex": 0,
+  "SelectedMonitoringSummaryGpuIndex": 0,
+  "EnableSound": true,
+  "AutoIntelHwp": true,
+  "SwitchToMonitoringTabWhenTestIsRunning": true,
+  "AcceptRiskInSystemTuning": false
+}
